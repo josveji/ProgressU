@@ -13,19 +13,20 @@ npm run build      # valida y compila a dist/
 
 ## Estructura
 
-- `src/data/`: planes de estudio en JSON (`enfasis.json` alimenta el selector).
+- `src/data/`: planes de estudio en JSON (detectados automáticamente).
 - `src/logic/`: cálculo de estados, créditos y almacenamiento (sin React).
 - `src/hooks/useProgreso.js`: conecta la lógica con la interfaz.
 - `src/components/` y `src/pages/`: interfaz.
 - `src/textos/es.js`: todos los textos en español.
 
-## Agregar un énfasis
+## Agregar una carrera, un énfasis o un plan
 
-1. Crea `src/data/<id>.json` con el mismo formato que `computadoras-y-redes.json`.
-2. Regístralo en `src/data/enfasis.json` y en `src/data/index.js`.
-3. Ejecuta `npm run validar` para detectar errores de transcripción.
+1. Crea `src/data/<id>.json` con el mismo formato que los existentes. El `id` debe coincidir con el nombre del archivo.
+2. Incluye `carreraId` y `carrera` (los planes con el mismo `carreraId` se agrupan en una carrera) y `enfasis` (el nombre que aparece en el selector).
+3. Opcional: `etiquetaSelector` cambia la palabra del selector (por ejemplo "Plan" en vez de "Énfasis").
+4. Ejecuta `npm run validar`. No hay que registrar nada más: la app detecta el archivo sola.
 
-El progreso se guarda por código de curso: los cursos compartidos entre énfasis siguen aprobados al cambiar de uno a otro.
+El progreso se guarda por carrera. Dentro de una carrera, los cursos con el mismo código se comparten entre sus énfasis o planes. Los códigos de las ranuras de optativa deben ser únicos por plan.
 
 ## Despliegue en GitHub Pages
 
