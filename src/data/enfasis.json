@@ -8,5 +8,10 @@
   "id": "electronica-y-telecomunicaciones",
   "nombre": "Electrónica y Telecomunicaciones",
   "creditosTotales": 141
+ },
+ {
+  "id": "sistemas-de-energia",
+  "nombre": "Sistemas de Energía",
+  "creditosTotales": 141
  }
 ]

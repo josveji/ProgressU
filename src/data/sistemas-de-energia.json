@@ -1,0 +1,837 @@
+{
+ "id": "sistemas-de-energia",
+ "carrera": "Bach. Ingeniería Eléctrica",
+ "enfasis": "Sistemas de Energía",
+ "resolucion": "VD-13502-2025, 06 de noviembre de 2025",
+ "creditosTotales": 141,
+ "creditosPorSemestre": [
+  18,
+  18,
+  18,
+  18,
+  19,
+  17,
+  18,
+  15
+ ],
+ "semestres": [
+  {
+   "numero": 1,
+   "cursos": [
+    {
+     "codigo": "EG-I",
+     "nombre": "Curso Integrado de Humanidades I",
+     "creditos": 6,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "QU-0100",
+     "nombre": "Química General I",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [
+      "QU-0101"
+     ]
+    },
+    {
+     "codigo": "QU-0101",
+     "nombre": "Laboratorio de Química General I",
+     "creditos": 1,
+     "requisitos": [],
+     "correquisitos": [
+      "QU-0100"
+     ]
+    },
+    {
+     "codigo": "MA-1101",
+     "nombre": "Cálculo I",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-1004",
+     "nombre": "Álgebra Lineal",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "EF-",
+     "nombre": "Actividad Deportiva",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "EG-",
+     "nombre": "Curso de Arte",
+     "creditos": 2,
+     "requisitos": [],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "cursos": [
+    {
+     "codigo": "EG-II",
+     "nombre": "Curso Integrado de Humanidades II",
+     "creditos": 6,
+     "requisitos": [
+      "EG-I"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "CI-0202",
+     "nombre": "Principios de Informática",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1101"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-1002",
+     "nombre": "Cálculo II",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1101"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "FS-0210",
+     "nombre": "Física General I",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1101"
+     ],
+     "correquisitos": [
+      "FS-0211"
+     ]
+    },
+    {
+     "codigo": "FS-0211",
+     "nombre": "Laboratorio de Física General I",
+     "creditos": 1,
+     "requisitos": [
+      "MA-1101"
+     ],
+     "correquisitos": [
+      "FS-0210"
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "cursos": [
+    {
+     "codigo": "IM-0101",
+     "nombre": "Gráfica",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [
+      "MA-1002"
+     ]
+    },
+    {
+     "codigo": "IE-0209",
+     "nombre": "Circuitos Lineales I",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1002",
+      "MA-1004",
+      "FS-0210",
+      "FS-0211"
+     ],
+     "correquisitos": [
+      "FS-0310",
+      "FS-0311",
+      "MA-1005"
+     ]
+    },
+    {
+     "codigo": "MA-1003",
+     "nombre": "Cálculo III",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1002"
+     ],
+     "correquisitos": [
+      "MA-1004"
+     ]
+    },
+    {
+     "codigo": "FS-0310",
+     "nombre": "Física General II",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1002",
+      "FS-0210",
+      "FS-0211"
+     ],
+     "correquisitos": [
+      "FS-0311"
+     ]
+    },
+    {
+     "codigo": "FS-0311",
+     "nombre": "Laboratorio de Física General II",
+     "creditos": 1,
+     "requisitos": [
+      "MA-1002",
+      "FS-0210",
+      "FS-0211"
+     ],
+     "correquisitos": [
+      "FS-0310"
+     ]
+    },
+    {
+     "codigo": "MA-1005",
+     "nombre": "Ecuaciones Diferenciales",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1002",
+      "MA-1004"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "cursos": [
+    {
+     "codigo": "IM-0207",
+     "nombre": "Mecánica I",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0210",
+      "FS-0211",
+      "MA-1002",
+      "IM-0101"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0309",
+     "nombre": "Circuitos Lineales II",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0209",
+      "MA-1005",
+      "FS-0310",
+      "FS-0311"
+     ],
+     "correquisitos": [
+      "FS-0410",
+      "FS-0411"
+     ]
+    },
+    {
+     "codigo": "IE-0247",
+     "nombre": "Señales y Sistemas I",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1005",
+      "IE-0209",
+      "CI-0202"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "FS-0410",
+     "nombre": "Física General III",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1003",
+      "FS-0310",
+      "FS-0311"
+     ],
+     "correquisitos": [
+      "FS-0411"
+     ]
+    },
+    {
+     "codigo": "FS-0411",
+     "nombre": "Laboratorio de Física General III",
+     "creditos": 1,
+     "requisitos": [
+      "MA-1003",
+      "FS-0310",
+      "FS-0311"
+     ],
+     "correquisitos": [
+      "FS-0410"
+     ]
+    },
+    {
+     "codigo": "IE-0313",
+     "nombre": "Electrónica I",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0209"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "SR-I",
+     "nombre": "Seminario de Realidad Nacional I",
+     "creditos": 2,
+     "requisitos": [
+      "EG-II"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "cursos": [
+    {
+     "codigo": "IM-0307",
+     "nombre": "Mecánica II",
+     "creditos": 3,
+     "requisitos": [
+      "IM-0207"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0323",
+     "nombre": "Sistemas Digitales I",
+     "creditos": 4,
+     "requisitos": [
+      "IE-0313"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0347",
+     "nombre": "Señales y Sistemas II",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0247"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0307",
+     "nombre": "Electromagnetismo I",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0410",
+      "FS-0411",
+      "IE-0247",
+      "IE-0313",
+      "MA-1003"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0413",
+     "nombre": "Electrónica II",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0247",
+      "IE-0313"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0308",
+     "nombre": "Laboratorio de Electrónica I",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0309",
+      "IE-0313"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "cursos": [
+    {
+     "codigo": "RP",
+     "nombre": "Repertorio",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0281",
+     "nombre": "Termofluidos",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0310",
+      "FS-0311",
+      "QU-0100",
+      "QU-0101"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0405",
+     "nombre": "Modelos Probabilísticos de Señales y Sistemas",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0347"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0315",
+     "nombre": "Máquinas Eléctricas I",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0309",
+      "IE-0307"
+     ],
+     "correquisitos": [
+      "IE-0316"
+     ]
+    },
+    {
+     "codigo": "IE-0316",
+     "nombre": "Laboratorio de Máquinas Eléctricas I",
+     "creditos": 1,
+     "requisitos": [
+      "IE-0309",
+      "IE-0307"
+     ],
+     "correquisitos": [
+      "IE-0315"
+     ]
+    },
+    {
+     "codigo": "IE-0408",
+     "nombre": "Laboratorio de Electrónica II",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0308",
+      "IE-0413"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0501",
+     "nombre": "Responsabilidad en el ejercicio profesional de la ingeniería eléctrica",
+     "creditos": 1,
+     "requisitos": [
+      "IE-0307"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "cursos": [
+    {
+     "codigo": "OPT-S1",
+     "nombre": "Optativa I",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "general"
+    },
+    {
+     "codigo": "IE-0365",
+     "nombre": "Transmisión de Potencia",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0315",
+      "IE-0316"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0431",
+     "nombre": "Sistemas de Control",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0347"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0615",
+     "nombre": "Máquinas Eléctricas II",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0315",
+      "IE-0316",
+      "IE-0347"
+     ],
+     "correquisitos": [
+      "IE-0616"
+     ]
+    },
+    {
+     "codigo": "IE-0616",
+     "nombre": "Laboratorio de Máquinas Eléctricas II",
+     "creditos": 1,
+     "requisitos": [
+      "IE-0315",
+      "IE-0316",
+      "IE-0347"
+     ],
+     "correquisitos": [
+      "IE-0615"
+     ]
+    },
+    {
+     "codigo": "IE-0381",
+     "nombre": "Ciencia de los Materiales",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0410",
+      "FS-0411",
+      "QU-0100",
+      "QU-0101"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "SR-II",
+     "nombre": "Seminario de Realidad Nacional II",
+     "creditos": 2,
+     "requisitos": [
+      "SR-I"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "cursos": [
+    {
+     "codigo": "OPT-S2",
+     "nombre": "Optativa II",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "general"
+    },
+    {
+     "codigo": "IE-0469",
+     "nombre": "Sistemas de Potencia I",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0365",
+      "IE-0615"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0499",
+     "nombre": "Proyecto Eléctrico",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0431"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0471",
+     "nombre": "Diseño Eléctrico Industrial I",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0315",
+      "IE-0316"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0479",
+     "nombre": "Ingeniería Económica",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0501"
+     ],
+     "correquisitos": []
+    }
+   ]
+  }
+ ],
+ "optativas": {
+  "general": [
+   {
+    "codigo": "IE-0117",
+    "nombre": "Programación bajo plataformas abiertas",
+    "requisitos": [
+     "CI-0202"
+    ]
+   },
+   {
+    "codigo": "IE-0311",
+    "nombre": "Circuitos integrados digitales",
+    "requisitos": [
+     "FS-0410",
+     "IE-0323"
+    ]
+   },
+   {
+    "codigo": "IE-0321",
+    "nombre": "Estructura de computadoras digitales I",
+    "requisitos": [
+     "IE-0323"
+    ]
+   },
+   {
+    "codigo": "IE-0407",
+    "nombre": "Electromagnetismo II",
+    "requisitos": [
+     "IE-0307"
+    ]
+   },
+   {
+    "codigo": "IE-0435",
+    "nombre": "Inteligencia artificial aplicada a la ingeniería eléctrica",
+    "requisitos": [
+     "IE-0347",
+     "CI-0202"
+    ]
+   },
+   {
+    "codigo": "IE-0437",
+    "nombre": "Fotónica",
+    "requisitos": [
+     "IE-0307",
+     "IE-0308"
+    ]
+   },
+   {
+    "codigo": "IE-0439",
+    "nombre": "Optoelectrónica",
+    "requisitos": [
+     "IE-0307",
+     "IE-0308"
+    ]
+   },
+   {
+    "codigo": "IE-0445",
+    "nombre": "Metrología en la ingeniería eléctrica",
+    "requisitos": [
+     "IE-0307",
+     "IE-0308"
+    ]
+   },
+   {
+    "codigo": "IE-0447",
+    "nombre": "Procesamiento digital de señales I",
+    "requisitos": [
+     "IE-0347",
+     "IE-0413"
+    ]
+   },
+   {
+    "codigo": "IE-0449",
+    "nombre": "Visión por computador",
+    "requisitos": [
+     "IE-0247"
+    ]
+   },
+   {
+    "codigo": "IE-0457",
+    "nombre": "Conservación de la energía eléctrica",
+    "requisitos": [
+     "IE-0315",
+     "IE-0316"
+    ]
+   },
+   {
+    "codigo": "IE-0467",
+    "nombre": "Distribución eléctrica subterránea",
+    "requisitos": [
+     "IE-0307",
+     "IE-0315",
+     "IE-0316"
+    ]
+   },
+   {
+    "codigo": "IE-0505",
+    "nombre": "Técnicas de optimización",
+    "requisitos": [
+     "IE-0347"
+    ]
+   },
+   {
+    "codigo": "IE-0513",
+    "nombre": "Electrónica III",
+    "requisitos": [
+     "IE-0413"
+    ]
+   },
+   {
+    "codigo": "IE-0514",
+    "nombre": "Electrónica de potencia y control de máquinas",
+    "requisitos": [
+     "IE-0315",
+     "IE-0316",
+     "IE-0431"
+    ]
+   },
+   {
+    "codigo": "IE-0527",
+    "nombre": "Ingeniería de comunicaciones",
+    "requisitos": [
+     "IE-0307",
+     "IE-0405"
+    ]
+   },
+   {
+    "codigo": "IE-0537",
+    "nombre": "Radiometría y fotometría",
+    "requisitos": [
+     "IE-0307",
+     "IE-0308"
+    ]
+   },
+   {
+    "codigo": "IE-0539",
+    "nombre": "Comunicaciones por fibra óptica",
+    "requisitos": [
+     "IE-0307",
+     "IE-0308"
+    ]
+   },
+   {
+    "codigo": "IE-0545",
+    "nombre": "Mediciones ópticas",
+    "requisitos": [
+     "IE-0307",
+     "IE-0308"
+    ]
+   },
+   {
+    "codigo": "IE-0559",
+    "nombre": "Energía solar fotovoltaica",
+    "requisitos": [
+     "IE-0315",
+     "IE-0316"
+    ]
+   },
+   {
+    "codigo": "IE-0619",
+    "nombre": "Control eléctrico industrial",
+    "requisitos": [
+     "IE-0615",
+     "IE-0616",
+     "IE-0323"
+    ]
+   },
+   {
+    "codigo": "IE-0624",
+    "nombre": "Laboratorio de microcontroladores",
+    "requisitos": [
+     "IE-0323",
+     "IE-0308",
+     "IE-0413"
+    ]
+   },
+   {
+    "codigo": "IE-0628",
+    "nombre": "Laboratorio de microondas",
+    "requisitos": [
+     "IE-0307",
+     "IE-0408"
+    ]
+   },
+   {
+    "codigo": "IE-0639",
+    "nombre": "Circuitos integrados fotónicos",
+    "requisitos": [
+     "IE-0307",
+     "IE-0308"
+    ]
+   },
+   {
+    "codigo": "IE-0739",
+    "nombre": "Redes ópticas en telecomunicaciones",
+    "requisitos": [
+     "IE-0307",
+     "IE-0308"
+    ]
+   },
+   {
+    "codigo": "IE-1003",
+    "nombre": "Temas especiales I en ingeniería",
+    "requisitos": [
+     "IE-0347"
+    ]
+   },
+   {
+    "codigo": "IE-1014",
+    "nombre": "Temas especiales I en control",
+    "requisitos": [
+     "IE-0347"
+    ]
+   },
+   {
+    "codigo": "IE-1015",
+    "nombre": "Temas especiales I en telecomunicaciones",
+    "requisitos": [
+     "IE-0347"
+    ]
+   },
+   {
+    "codigo": "IE-1017",
+    "nombre": "Temas especiales I en máquinas eléctricas",
+    "requisitos": [
+     "IE-0347"
+    ]
+   },
+   {
+    "codigo": "IE-1018",
+    "nombre": "Temas especiales I en sistemas de potencia",
+    "requisitos": [
+     "IE-0347"
+    ]
+   },
+   {
+    "codigo": "IE-1020",
+    "nombre": "Temas especiales I en electrónica",
+    "requisitos": [
+     "IE-0347"
+    ]
+   },
+   {
+    "codigo": "IE-1021",
+    "nombre": "Temas especiales I en sistemas digitales",
+    "requisitos": [
+     "IE-0347"
+    ]
+   }
+  ]
+ },
+ "hitos": [
+  {
+   "id": "tcu",
+   "nombre": "TCU (300 horas)",
+   "despuesDeSemestre": 4,
+   "creditosMinimos": 71,
+   "requisitos": [
+    "SR-I"
+   ],
+   "detalle": "Requiere el 50 % de los créditos del bachillerato (71, redondeando 70,5) y el Seminario de Realidad Nacional I aprobado."
+  },
+  {
+   "id": "practica",
+   "nombre": "Práctica Profesional (300 horas)",
+   "despuesDeSemestre": 6,
+   "creditosMinimos": 107,
+   "requisitos": [],
+   "detalle": "Requiere 107 créditos aprobados para solicitar el permiso de la práctica."
+  }
+ ]
+}
