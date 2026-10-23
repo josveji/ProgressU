@@ -1,0 +1,638 @@
+{
+ "id": "ingenieria-industrial-plan-2026",
+ "carreraId": "ingenieria-industrial",
+ "carrera": "Lic. en Ingeniería Industrial",
+ "enfasis": "Plan 2026",
+ "etiquetaSelector": "Plan",
+ "porDefecto": true,
+ "resolucion": "VD-13491-2025, a partir del I ciclo 2026",
+ "creditosTotales": 174,
+ "creditosPorSemestre": [
+  18,
+  18,
+  18,
+  19,
+  18,
+  18,
+  18,
+  18,
+  17,
+  12
+ ],
+ "semestres": [
+  {
+   "numero": 1,
+   "cursos": [
+    {
+     "codigo": "EG-I",
+     "nombre": "Curso Integrado de Humanidades I",
+     "creditos": 6,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "EG-",
+     "nombre": "Curso de Arte",
+     "creditos": 2,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "EF-",
+     "nombre": "Actividad Deportiva",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-0001",
+     "nombre": "Pre-cálculo",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-1004",
+     "nombre": "Álgebra Lineal",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "QU-0114",
+     "nombre": "Química General Intensiva",
+     "creditos": 4,
+     "requisitos": [],
+     "correquisitos": [
+      "QU-0115"
+     ]
+    },
+    {
+     "codigo": "QU-0115",
+     "nombre": "Laboratorio de Química General Intensiva",
+     "creditos": 1,
+     "requisitos": [],
+     "correquisitos": [
+      "QU-0114"
+     ]
+    },
+    {
+     "codigo": "II-1118",
+     "nombre": "Introducción a la Ingeniería Industrial",
+     "creditos": 2,
+     "requisitos": [],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "cursos": [
+    {
+     "codigo": "EG-II",
+     "nombre": "Curso Integrado de Humanidades II",
+     "creditos": 6,
+     "requisitos": [
+      "EG-I"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-1001",
+     "nombre": "Cálculo I",
+     "creditos": 3,
+     "requisitos": [
+      "MA-0001"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1119",
+     "nombre": "Fundamentos para Tecnologías Digitales",
+     "creditos": 4,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1121",
+     "nombre": "Gestión de la Ingeniería",
+     "creditos": 2,
+     "requisitos": [
+      "II-1118"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1120",
+     "nombre": "Estadística para Ingeniería Industrial I",
+     "creditos": 3,
+     "requisitos": [
+      "II-1118"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "cursos": [
+    {
+     "codigo": "FS-0210",
+     "nombre": "Física General I",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1001"
+     ],
+     "correquisitos": [
+      "FS-0211"
+     ]
+    },
+    {
+     "codigo": "FS-0211",
+     "nombre": "Laboratorio de Física General I",
+     "creditos": 1,
+     "requisitos": [
+      "MA-1001"
+     ],
+     "correquisitos": [
+      "FS-0210"
+     ]
+    },
+    {
+     "codigo": "MA-1002",
+     "nombre": "Cálculo II",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1001"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1122",
+     "nombre": "Modelos de Optimización Industrial",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1004",
+      "II-1119"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1124",
+     "nombre": "Ingeniería Económica Industrial I",
+     "creditos": 3,
+     "requisitos": [
+      "II-1118"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1123",
+     "nombre": "Estadística para Ingeniería Industrial II",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1001",
+      "II-1120"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "cursos": [
+    {
+     "codigo": "LM-1618",
+     "nombre": "Inglés para Ingeniería Industrial I",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "SR-I",
+     "nombre": "Seminario de Realidad Nacional I",
+     "creditos": 2,
+     "requisitos": [
+      "EG-II"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "FS-0310",
+     "nombre": "Física General II",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0210",
+      "FS-0211"
+     ],
+     "correquisitos": [
+      "FS-0311"
+     ]
+    },
+    {
+     "codigo": "FS-0311",
+     "nombre": "Laboratorio de Física General II",
+     "creditos": 1,
+     "requisitos": [
+      "FS-0210",
+      "FS-0211"
+     ],
+     "correquisitos": [
+      "FS-0310"
+     ]
+    },
+    {
+     "codigo": "MA-1003",
+     "nombre": "Cálculo III",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1002"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1126",
+     "nombre": "Modelos Estocásticos y Heurísticos para la Industria",
+     "creditos": 3,
+     "requisitos": [
+      "II-1122",
+      "II-1123"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1127",
+     "nombre": "Ingeniería Económica Industrial II",
+     "creditos": 3,
+     "requisitos": [
+      "II-1124"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1125",
+     "nombre": "Estadística para Ingeniería Industrial III",
+     "creditos": 3,
+     "requisitos": [
+      "II-1123"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "cursos": [
+    {
+     "codigo": "LM-1619",
+     "nombre": "Inglés para Ingeniería Industrial II",
+     "creditos": 0,
+     "requisitos": [
+      "LM-1618"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IM-0101",
+     "nombre": "Gráfica",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1002"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IM-",
+     "nombre": "Curso en construcción",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0210"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-1005",
+     "nombre": "Ecuaciones Diferenciales",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1003"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1128",
+     "nombre": "Simulación y Sistemas Dinámicos",
+     "creditos": 3,
+     "requisitos": [
+      "II-1126"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1130",
+     "nombre": "Ingeniería de la Sostenibilidad I",
+     "creditos": 2,
+     "requisitos": [
+      "II-1127"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1129",
+     "nombre": "Ingeniería de la Información",
+     "creditos": 3,
+     "requisitos": [
+      "II-1119"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "cursos": [
+    {
+     "codigo": "SR-II",
+     "nombre": "Seminario de Realidad Nacional II",
+     "creditos": 2,
+     "requisitos": [
+      "SR-I"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1133",
+     "nombre": "Gestión de Proyectos",
+     "creditos": 3,
+     "requisitos": [
+      "II-1121",
+      "II-1122"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1134",
+     "nombre": "Metrología Industrial",
+     "creditos": 3,
+     "requisitos": [
+      "II-1125"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1131",
+     "nombre": "Ergonomía y Factores Humanos, Seguridad y Salud en el Trabajo",
+     "creditos": 4,
+     "requisitos": [
+      "II-1126"
+     ],
+     "correquisitos": [
+      "II-1132"
+     ]
+    },
+    {
+     "codigo": "II-1132",
+     "nombre": "Diseño y Medición del Trabajo",
+     "creditos": 3,
+     "requisitos": [
+      "II-1126"
+     ],
+     "correquisitos": [
+      "II-1131"
+     ]
+    },
+    {
+     "codigo": "II-1135",
+     "nombre": "Analítica Industrial",
+     "creditos": 3,
+     "requisitos": [
+      "II-1129",
+      "II-1125",
+      "II-1128"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "cursos": [
+    {
+     "codigo": "II-1139",
+     "nombre": "Ingeniería Confiabilidad",
+     "creditos": 3,
+     "requisitos": [
+      "II-1123"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1140",
+     "nombre": "Desarrollo de Producto y Servicio",
+     "creditos": 3,
+     "requisitos": [
+      "II-1127",
+      "II-1133"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1141",
+     "nombre": "Ingeniería de Sostenibilidad II",
+     "creditos": 2,
+     "requisitos": [
+      "II-1130"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1137",
+     "nombre": "Fundamentos para Manufactura",
+     "creditos": 4,
+     "requisitos": [
+      "FS-0310"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1138",
+     "nombre": "Ingeniería de Servicios",
+     "creditos": 3,
+     "requisitos": [
+      "II-1135"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1136",
+     "nombre": "Ingeniería de la Cadena de Suministro I",
+     "creditos": 3,
+     "requisitos": [
+      "II-1135"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "cursos": [
+    {
+     "codigo": "LM-1620",
+     "nombre": "Inglés para Ingeniería Industrial III",
+     "creditos": 3,
+     "requisitos": [
+      "LM-1619"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1145",
+     "nombre": "Ingeniería de Calidad y Mejora Continua",
+     "creditos": 4,
+     "requisitos": [
+      "II-1134",
+      "II-1139"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1144",
+     "nombre": "Sistemas de Manufactura",
+     "creditos": 4,
+     "requisitos": [
+      "II-1134",
+      "II-1137"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1143",
+     "nombre": "Ingeniería de Operaciones",
+     "creditos": 4,
+     "requisitos": [
+      "II-1132",
+      "II-1135",
+      "II-1136"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1142",
+     "nombre": "Ingeniería de la Cadena de Suministro II",
+     "creditos": 3,
+     "requisitos": [
+      "II-1136"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "cursos": [
+    {
+     "codigo": "II-1148",
+     "nombre": "Gerencia y Sistemas de Gestión Integrados",
+     "creditos": 3,
+     "requisitos": [
+      "II-1121"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1150",
+     "nombre": "Taller de Investigación en Ingeniería",
+     "creditos": 2,
+     "requisitos": [
+      "II-1142",
+      "II-1143",
+      "II-1144",
+      "II-1145",
+      "LM-1620"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1149",
+     "nombre": "Gestión de la Estrategia Industrial",
+     "creditos": 3,
+     "requisitos": [
+      "II-1121"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1147",
+     "nombre": "Ingeniería de Instalaciones y de Energía",
+     "creditos": 5,
+     "requisitos": [
+      "II-1143",
+      "II-1144"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-1146",
+     "nombre": "Ingeniería de la Cadena de Suministro III",
+     "creditos": 4,
+     "requisitos": [
+      "II-1142"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "cursos": [
+    {
+     "codigo": "LM-1621",
+     "nombre": "Inglés para Ingeniería Industrial IV",
+     "creditos": 3,
+     "requisitos": [
+      "LM-1620"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "RP-1",
+     "nombre": "Repertorio",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-9500",
+     "nombre": "Investigación Dirigida I",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "OPT-1",
+     "nombre": "Bloque Optativo I",
+     "creditos": 2,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "OPT-2",
+     "nombre": "Bloque Optativo II",
+     "creditos": 2,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "OPT-3",
+     "nombre": "Bloque Optativo III",
+     "creditos": 2,
+     "requisitos": [],
+     "correquisitos": []
+    }
+   ]
+  }
+ ],
+ "optativas": {},
+ "hitos": []
+}

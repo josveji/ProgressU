@@ -10,7 +10,10 @@ const porCarrera = {};
 for (const p of Object.values(planes)) {
   (porCarrera[p.carreraId] ??= { id: p.carreraId, nombre: p.carrera, planes: [] }).planes.push(p);
 }
-for (const c of Object.values(porCarrera)) c.planes.sort((a, b) => a.enfasis.localeCompare(b.enfasis, 'es'));
+// Un plan con "porDefecto": true aparece primero y es el que se abre al elegir la carrera.
+for (const c of Object.values(porCarrera)) {
+  c.planes.sort((a, b) => Number(!!b.porDefecto) - Number(!!a.porDefecto) || a.enfasis.localeCompare(b.enfasis, 'es'));
+}
 
 export const carreras = porCarrera;
 export const listaCarreras = Object.values(porCarrera).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
