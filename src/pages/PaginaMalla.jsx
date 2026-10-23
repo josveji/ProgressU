@@ -13,7 +13,7 @@ import { T, ROMANOS } from '../textos/es';
 const boton = 'rounded-lg border border-neutral-300 bg-white px-3 py-1.5 text-sm font-semibold hover:bg-neutral-100';
 
 export default function PaginaMalla({ p }) {
-  const { e, plan, cursos, estados, porCodigo, aprobados, res } = p;
+  const { e, prog, carrera, plan, cursos, estados, porCodigo, aprobados, res } = p;
   const B = T.bloques;
   const archivo = useRef();
   // Abre por defecto el primer semestre con cursos pendientes.
@@ -27,12 +27,12 @@ export default function PaginaMalla({ p }) {
 
   const aprobarSemestres = (nums) => {
     const r = aprobarBloque(cursos, aprobados, nums);
-    p.cambiar({ aprobados: [...r.aprobados] });
+    p.cambiarProg({ aprobados: [...r.aprobados] });
     setAviso({ texto: mensajeBloque(r), ok: !r.omitidos.length && !r.sinElegir.length });
   };
   const quitarSemestre = (n) => {
     const codigos = new Set(cursos.filter((c) => c.semestre === n).map((c) => c.codigo));
-    p.cambiar({ aprobados: e.aprobados.filter((a) => !codigos.has(a)) });
+    p.cambiarProg({ aprobados: prog.aprobados.filter((a) => !codigos.has(a)) });
     setAviso(null);
   };
 
@@ -45,7 +45,7 @@ export default function PaginaMalla({ p }) {
 
   return (
     <>
-      <ResumenProgreso plan={plan} res={res} enfasisId={e.enfasis} cita={e.cita} onEnfasis={(enfasis) => p.cambiar({ enfasis })} onCita={(cita) => p.cambiar({ cita })} />
+      <ResumenProgreso carrera={carrera} plan={plan} res={res} cita={e.cita} onEnfasis={(enfasis) => p.cambiarProg({ enfasis })} onCita={(cita) => p.cambiar({ cita })} />
 
       <section aria-labelledby="rapida-titulo" className="mt-6 max-w-xl rounded-2xl border border-neutral-200 bg-white p-4">
         <h2 id="rapida-titulo" className="text-sm font-extrabold">{B.rapidaTitulo}</h2>
@@ -74,7 +74,7 @@ export default function PaginaMalla({ p }) {
               const curso = cursos.find((x) => x.codigo === c.codigo);
               const props = { curso, estado: estados[c.codigo], onToggle: () => p.alternar(c.codigo), porCodigo, aprobados };
               return c.optativa
-                ? <RanuraOptativa key={c.codigo} plan={plan} elegidas={e.optativas} onElegir={p.elegirOptativa} {...props} />
+                ? <RanuraOptativa key={c.codigo} plan={plan} elegidas={prog.optativas ?? {}} onElegir={p.elegirOptativa} {...props} />
                 : <TarjetaCurso key={c.codigo} {...props} />;
             })}
             {plan.hitos.filter((h) => h.despuesDeSemestre === s.numero).map((h) => <HitoCreditos key={h.id} hito={h} estado={estadoHito(h, res.aprobados, aprobados)} />)}

@@ -1,30 +1,45 @@
 import { useState, useEffect, useMemo } from 'react';
-import { planes, enfasis } from '../data';
+import { carreras } from '../data';
 import { resolverPlan, calcularEstados } from '../logic/disponibilidad';
 import { resumen } from '../logic/creditos';
-import { cargar, guardar } from '../logic/almacenamiento';
+import { cargar, guardar, progresoVacio } from '../logic/almacenamiento';
 
 export default function useProgreso() {
   const [e, setE] = useState(cargar);
   useEffect(() => guardar(e), [e]);
 
-  const plan = planes[e.enfasis] ?? planes[enfasis[0].id];
-  const aprobados = useMemo(() => new Set(e.aprobados), [e.aprobados]);
-  const cursos = useMemo(() => resolverPlan(plan, e.optativas), [plan, e.optativas]);
+  const carrera = carreras[e.carrera] ?? null;
+  const prog = carrera ? e.carreras[carrera.id] ?? progresoVacio(carrera.planes[0].id) : null;
+  const plan = carrera ? carrera.planes.find((x) => x.id === prog.enfasis) ?? carrera.planes[0] : null;
+  const aprobados = useMemo(() => new Set(prog?.aprobados ?? []), [prog?.aprobados]);
+  const cursos = useMemo(() => (plan ? resolverPlan(plan, prog.optativas ?? {}) : []), [plan, prog?.optativas]);
   const { estados, porCodigo } = useMemo(() => calcularEstados(cursos, aprobados), [cursos, aprobados]);
-  const res = useMemo(() => resumen(cursos, aprobados, plan.creditosTotales), [cursos, aprobados, plan]);
+  const res = useMemo(() => resumen(cursos, aprobados, plan?.creditosTotales ?? 0), [cursos, aprobados, plan]);
 
+  // Datos globales: nombre, foto y cita.
   const cambiar = (patch) => setE((p) => ({ ...p, ...patch }));
-  const alternar = (cod) => setE((p) => {
-    const s = new Set(p.aprobados);
+  // Progreso de la carrera activa.
+  const actualizar = (fn) => setE((p) => {
+    const c = carreras[p.carrera];
+    if (!c) return p;
+    const actual = p.carreras[c.id] ?? progresoVacio(c.planes[0].id);
+    return { ...p, carreras: { ...p.carreras, [c.id]: fn(actual) } };
+  });
+  const cambiarProg = (patch) => actualizar((a) => ({ ...a, ...patch }));
+  const alternar = (cod) => actualizar((a) => {
+    const s = new Set(a.aprobados);
     s.has(cod) ? s.delete(cod) : s.add(cod);
-    return { ...p, aprobados: [...s] };
+    return { ...a, aprobados: [...s] };
   });
-  const elegirOptativa = (ranura, cod) => setE((p) => {
-    const optativas = { ...p.optativas };
+  const elegirOptativa = (ranura, cod) => actualizar((a) => {
+    const optativas = { ...(a.optativas ?? {}) };
     cod ? (optativas[ranura] = cod) : delete optativas[ranura];
-    return { ...p, optativas, aprobados: p.aprobados.filter((a) => a !== ranura) };
+    return { ...a, optativas, aprobados: a.aprobados.filter((x) => x !== ranura) };
   });
+  const elegirCarrera = (id) => setE((p) => ({
+    ...p, carrera: id,
+    carreras: p.carreras[id] ? p.carreras : { ...p.carreras, [id]: progresoVacio(carreras[id].planes[0].id) },
+  }));
 
-  return { e, plan, cursos, estados, porCodigo, aprobados, res, cambiar, alternar, elegirOptativa, reemplazar: setE };
+  return { e, carrera, prog, plan, cursos, estados, porCodigo, aprobados, res, cambiar, cambiarProg, alternar, elegirOptativa, elegirCarrera, reemplazar: setE };
 }

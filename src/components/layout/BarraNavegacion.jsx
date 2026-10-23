@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { T } from '../../textos/es';
 
-const enlaces = [{ a: '/', texto: T.plan }, { a: '/proximamente', texto: T.proximamente }];
+const enlaces = [{ a: '/', texto: T.plan }, { a: '/carreras', texto: T.cambiarCarrera }, { a: '/proximamente', texto: T.proximamente }];
 
 export default function BarraNavegacion() {
   return (

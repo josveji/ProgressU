@@ -1,11 +1,26 @@
-const CLAVE = 'progressu_v1';
+const CLAVE = 'progressu_v2';
+const VIEJA = 'progressu_v1';
 const BIENVENIDA = 'progressu_welcome_seen';
 
-export const defecto = { enfasis: 'computadoras-y-redes', aprobados: [], optativas: {}, cita: '', nombre: '', foto: '' };
+// Datos globales (perfil) + progreso separado por carrera.
+export const defecto = { nombre: '', foto: '', cita: '', carrera: null, carreras: {} };
+export const progresoVacio = (enfasis) => ({ enfasis, aprobados: [], optativas: {} });
 
-export function cargar() {
-  try { return { ...defecto, ...JSON.parse(localStorage.getItem(CLAVE) || '{}') }; } catch { return { ...defecto }; }
+// Acepta el formato actual y el anterior (un solo plan, que pasa a Ingeniería Eléctrica).
+export function normalizar(d) {
+  if (!d || typeof d !== 'object') return null;
+  if (d.carreras && typeof d.carreras === 'object') return { ...defecto, ...d };
+  if (Array.isArray(d.aprobados)) {
+    return {
+      ...defecto, nombre: d.nombre || '', foto: d.foto || '', cita: d.cita || '', carrera: 'ingenieria-electrica',
+      carreras: { 'ingenieria-electrica': { enfasis: d.enfasis || 'computadoras-y-redes', aprobados: d.aprobados, optativas: d.optativas || {} } },
+    };
+  }
+  return null;
 }
+
+const leer = (clave) => { try { return normalizar(JSON.parse(localStorage.getItem(clave) || 'null')); } catch { return null; } };
+export const cargar = () => leer(CLAVE) ?? leer(VIEJA) ?? { ...defecto };
 export function guardar(estado) {
   try { localStorage.setItem(CLAVE, JSON.stringify(estado)); } catch { /* almacenamiento no disponible */ }
 }
@@ -19,7 +34,7 @@ export function exportar(estado) {
   URL.revokeObjectURL(url);
 }
 export async function importar(archivo) {
-  const d = JSON.parse(await archivo.text());
-  if (!Array.isArray(d.aprobados)) throw new Error('Archivo inválido');
-  return { ...defecto, ...d };
+  const d = normalizar(JSON.parse(await archivo.text()));
+  if (!d) throw new Error('Archivo inválido');
+  return d;
 }

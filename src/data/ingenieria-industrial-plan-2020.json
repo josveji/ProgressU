@@ -1,0 +1,837 @@
+{
+ "id": "ingenieria-industrial-plan-2020",
+ "carreraId": "ingenieria-industrial",
+ "carrera": "Lic. en Ingeniería Industrial",
+ "enfasis": "Plan 2020",
+ "etiquetaSelector": "Plan",
+ "resolucion": "SAE, plan de estudio 2 (reporte del 22/07/2020)",
+ "creditosTotales": 176,
+ "creditosPorSemestre": [
+  18,
+  20,
+  18,
+  18,
+  18,
+  18,
+  18,
+  19,
+  18,
+  11,
+  0,
+  0
+ ],
+ "semestres": [
+  {
+   "numero": 1,
+   "cursos": [
+    {
+     "codigo": "EF-",
+     "nombre": "Actividad Deportiva",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "EG-",
+     "nombre": "Curso de Arte",
+     "creditos": 2,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "EG-I",
+     "nombre": "Curso Integrado de Humanidades I",
+     "creditos": 6,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-0001",
+     "nombre": "Precálculo",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-1001",
+     "nombre": "Cálculo I",
+     "creditos": 3,
+     "requisitos": [
+      "MA-0001"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "QU-0100",
+     "nombre": "Química General I",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [
+      "QU-0101"
+     ]
+    },
+    {
+     "codigo": "QU-0101",
+     "nombre": "Laboratorio de Química General I",
+     "creditos": 1,
+     "requisitos": [],
+     "correquisitos": [
+      "QU-0100"
+     ]
+    },
+    {
+     "codigo": "RP-1",
+     "nombre": "Repertorio",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "cursos": [
+    {
+     "codigo": "EG-II",
+     "nombre": "Curso Integrado de Humanidades II",
+     "creditos": 6,
+     "requisitos": [
+      "EG-I"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "FS-0210",
+     "nombre": "Física General I",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1001"
+     ],
+     "correquisitos": [
+      "FS-0211"
+     ]
+    },
+    {
+     "codigo": "FS-0211",
+     "nombre": "Laboratorio de Física General I",
+     "creditos": 1,
+     "requisitos": [
+      "MA-1001"
+     ],
+     "correquisitos": [
+      "FS-0210"
+     ]
+    },
+    {
+     "codigo": "II-0201",
+     "nombre": "Introducción a la Ingeniería Industrial",
+     "creditos": 2,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-1002",
+     "nombre": "Cálculo II",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1001"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "QU-0102",
+     "nombre": "Química General II",
+     "creditos": 3,
+     "requisitos": [
+      "QU-0100",
+      "QU-0101"
+     ],
+     "correquisitos": [
+      "QU-0103"
+     ]
+    },
+    {
+     "codigo": "QU-0103",
+     "nombre": "Laboratorio de Química General II",
+     "creditos": 1,
+     "requisitos": [
+      "QU-0100",
+      "QU-0101"
+     ],
+     "correquisitos": [
+      "QU-0102"
+     ]
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "cursos": [
+    {
+     "codigo": "CI-0202",
+     "nombre": "Principios de Informática",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1001"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "FS-0310",
+     "nombre": "Física General II",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0210",
+      "FS-0211",
+      "MA-1002"
+     ],
+     "correquisitos": [
+      "FS-0311"
+     ]
+    },
+    {
+     "codigo": "FS-0311",
+     "nombre": "Laboratorio de Física General II",
+     "creditos": 1,
+     "requisitos": [
+      "FS-0210",
+      "FS-0211",
+      "MA-1002"
+     ],
+     "correquisitos": [
+      "FS-0310"
+     ]
+    },
+    {
+     "codigo": "II-0306",
+     "nombre": "Probabilidad y Estadística",
+     "creditos": 3,
+     "requisitos": [
+      "MA-1002"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-1003",
+     "nombre": "Cálculo III",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1002"
+     ],
+     "correquisitos": [
+      "MA-1004"
+     ]
+    },
+    {
+     "codigo": "MA-1004",
+     "nombre": "Álgebra Lineal",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "cursos": [
+    {
+     "codigo": "FS-0410",
+     "nombre": "Física General III",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0310",
+      "FS-0311",
+      "MA-1003"
+     ],
+     "correquisitos": [
+      "FS-0411"
+     ]
+    },
+    {
+     "codigo": "FS-0411",
+     "nombre": "Laboratorio de Física General III",
+     "creditos": 1,
+     "requisitos": [
+      "FS-0310",
+      "FS-0311",
+      "MA-1003"
+     ],
+     "correquisitos": [
+      "FS-0410"
+     ]
+    },
+    {
+     "codigo": "II-0401",
+     "nombre": "Investigación de Operaciones",
+     "creditos": 3,
+     "requisitos": [
+      "II-0306",
+      "MA-1004"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0402",
+     "nombre": "Ingeniería de Calidad I",
+     "creditos": 2,
+     "requisitos": [
+      "II-0306"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0501",
+     "nombre": "Tecnologías de Información",
+     "creditos": 2,
+     "requisitos": [
+      "CI-0202"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IM-0202",
+     "nombre": "Dibujo I",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0210",
+      "MA-1001"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "MA-1005",
+     "nombre": "Ecuaciones Diferenciales",
+     "creditos": 4,
+     "requisitos": [
+      "MA-1002",
+      "MA-1004"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "cursos": [
+    {
+     "codigo": "IE-0303",
+     "nombre": "Electrotecnia I",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0310",
+      "FS-0311",
+      "MA-1003"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0302",
+     "nombre": "Diseño del Trabajo e Ingeniería de Factores Humanos",
+     "creditos": 3,
+     "requisitos": [
+      "II-0306"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0502",
+     "nombre": "Ingeniería de Calidad II",
+     "creditos": 4,
+     "requisitos": [
+      "II-0402"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0503",
+     "nombre": "Simulación",
+     "creditos": 3,
+     "requisitos": [
+      "CI-0202",
+      "II-0401"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0504",
+     "nombre": "Administración Financiera y Contable I",
+     "creditos": 2,
+     "requisitos": [
+      "II-0201"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IM-0207",
+     "nombre": "Mecánica I",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0210",
+      "FS-0211",
+      "IM-0202",
+      "MA-1002"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "cursos": [
+    {
+     "codigo": "II-0601",
+     "nombre": "Gestión de Calidad",
+     "creditos": 4,
+     "requisitos": [
+      "II-0502"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0603",
+     "nombre": "Sistemas Automatizados de Manufactura",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0410",
+      "FS-0411",
+      "IE-0303",
+      "II-0302",
+      "II-0503",
+      "II-0504"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0604",
+     "nombre": "Administración Financiera y Contable II",
+     "creditos": 2,
+     "requisitos": [
+      "II-0504"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0605",
+     "nombre": "Logística de la Cadena del Valor I",
+     "creditos": 3,
+     "requisitos": [
+      "II-0401"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0606",
+     "nombre": "Termofluidos",
+     "creditos": 3,
+     "requisitos": [
+      "FS-0310",
+      "FS-0311",
+      "IE-0303",
+      "IM-0207",
+      "QU-0102",
+      "QU-0103"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0701",
+     "nombre": "Diseño de Sistemas de Información",
+     "creditos": 3,
+     "requisitos": [
+      "II-0501"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "cursos": [
+    {
+     "codigo": "II-0602",
+     "nombre": "Diseño de Experimentos",
+     "creditos": 3,
+     "requisitos": [
+      "II-0601"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0702",
+     "nombre": "Comportamiento Organizacional",
+     "creditos": 2,
+     "requisitos": [
+      "II-0302"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0703",
+     "nombre": "Ingeniería de Operaciones",
+     "creditos": 4,
+     "requisitos": [
+      "II-0603",
+      "II-0604",
+      "II-0605",
+      "II-0701"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0704",
+     "nombre": "Ingeniería Económica y Financiera",
+     "creditos": 3,
+     "requisitos": [
+      "II-0604"
+     ],
+     "correquisitos": [
+      "II-0703"
+     ]
+    },
+    {
+     "codigo": "II-0705",
+     "nombre": "Logística de la Cadena del Valor II",
+     "creditos": 4,
+     "requisitos": [
+      "II-0605"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "SR-I",
+     "nombre": "Seminario de Realidad Nacional I",
+     "creditos": 2,
+     "requisitos": [
+      "EG-II"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 8,
+   "cursos": [
+    {
+     "codigo": "II-0802",
+     "nombre": "Ingeniería de Procesos de Negocio",
+     "creditos": 4,
+     "requisitos": [
+      "II-0702"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0803",
+     "nombre": "Diseño de Producto",
+     "creditos": 3,
+     "requisitos": [
+      "II-0704"
+     ],
+     "correquisitos": [
+      "II-0804"
+     ]
+    },
+    {
+     "codigo": "II-0804",
+     "nombre": "Gestión de Proyectos",
+     "creditos": 3,
+     "requisitos": [
+      "II-0704"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0805",
+     "nombre": "Distribución y Localización de Instalaciones",
+     "creditos": 4,
+     "requisitos": [
+      "II-0703",
+      "II-0705"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0806",
+     "nombre": "Metrología y Normalización",
+     "creditos": 3,
+     "requisitos": [
+      "II-0602"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "SR-II",
+     "nombre": "Seminario de Realidad Nacional II",
+     "creditos": 2,
+     "requisitos": [
+      "SR-I"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 9,
+   "cursos": [
+    {
+     "codigo": "II-0801",
+     "nombre": "Ingeniería de Servicios",
+     "creditos": 3,
+     "requisitos": [
+      "II-0601",
+      "II-0703",
+      "II-0705"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0902",
+     "nombre": "Proyecto Industrial",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0904",
+     "nombre": "Ingeniería Ambiental",
+     "creditos": 3,
+     "requisitos": [
+      "II-0601",
+      "II-0804"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0905",
+     "nombre": "Ingeniería de Manufactura",
+     "creditos": 3,
+     "requisitos": [
+      "II-0703",
+      "II-0803",
+      "II-0805"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-0906",
+     "nombre": "Gestión de Mantenimiento",
+     "creditos": 3,
+     "requisitos": [
+      "II-0601",
+      "II-0603",
+      "II-0606"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "OPT-408-1",
+     "nombre": "Optativa 1 (Bloque Optativo 408)",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "bloque408"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "cursos": [
+    {
+     "codigo": "II-1001",
+     "nombre": "Responsabilidad Social",
+     "creditos": 2,
+     "requisitos": [
+      "II-0904"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "II-9500",
+     "nombre": "Investigación Dirigida I",
+     "creditos": 0,
+     "requisitos": [
+      "II-0902"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "OPT-408-2",
+     "nombre": "Optativa 2 (Bloque Optativo 408)",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "bloque408"
+    },
+    {
+     "codigo": "OPT-408-3",
+     "nombre": "Optativa 3 (Bloque Optativo 408)",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "bloque408"
+    },
+    {
+     "codigo": "OPT-408-4",
+     "nombre": "Optativa 4 (Bloque Optativo 408)",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "bloque408"
+    }
+   ]
+  },
+  {
+   "numero": 11,
+   "cursos": [
+    {
+     "codigo": "II-9501",
+     "nombre": "Investigación Dirigida 2",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 12,
+   "cursos": [
+    {
+     "codigo": "II-9502",
+     "nombre": "Investigación Dirigida 3",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    }
+   ]
+  }
+ ],
+ "optativas": {
+  "bloque408": [
+   {
+    "codigo": "II-0467",
+    "nombre": "Contratos y especificaciones",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-0931",
+    "nombre": "Temas especiales (licenciatura)",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-0934",
+    "nombre": "Normalización",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-0935",
+    "nombre": "Metrología",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-1023",
+    "nombre": "Gestión ambiental y seguridad integral",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-1025",
+    "nombre": "Gestión tecnológica",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-0871",
+    "nombre": "Ingeniería económica avanzada",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-0903",
+    "nombre": "Investigación de operaciones avanzada",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-1105",
+    "nombre": "Automatización y robótica avanzada",
+    "requisitos": [
+     "II-0603",
+     "II-0905"
+    ]
+   },
+   {
+    "codigo": "II-1106",
+    "nombre": "Modelos colaborativos en logística",
+    "requisitos": [
+     "II-0703",
+     "II-0705"
+    ]
+   },
+   {
+    "codigo": "II-1107",
+    "nombre": "Ingeniería avanzada de sistemas de distribución",
+    "requisitos": [
+     "II-0705"
+    ]
+   },
+   {
+    "codigo": "II-1108",
+    "nombre": "Sistemas avanzados de programación y control de operaciones",
+    "requisitos": [
+     "II-0703"
+    ]
+   },
+   {
+    "codigo": "II-1109",
+    "nombre": "Economía ambiental para ingeniería industrial",
+    "requisitos": [
+     "II-0504",
+     "II-0704"
+    ]
+   },
+   {
+    "codigo": "II-1110",
+    "nombre": "Tecnologías limpias",
+    "requisitos": [
+     "II-0904"
+    ]
+   },
+   {
+    "codigo": "II-1111",
+    "nombre": "Servicios turísticos sostenibles",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-1112",
+    "nombre": "Huella ecológica en la industria",
+    "requisitos": [
+     "II-0904"
+    ]
+   },
+   {
+    "codigo": "II-1113",
+    "nombre": "Desarrollo de proyectos emprendedores",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-1114",
+    "nombre": "Gestión integral de riesgos",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-1115",
+    "nombre": "Habilidades gerenciales para ingeniería industrial",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-1116",
+    "nombre": "Ingeniería organizacional avanzada",
+    "requisitos": []
+   },
+   {
+    "codigo": "II-1117",
+    "nombre": "Diseño de experimentos avanzado",
+    "requisitos": [
+     "II-0602"
+    ]
+   }
+  ]
+ },
+ "hitos": []
+}

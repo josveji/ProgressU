@@ -7,6 +7,14 @@ export const T = {
   cambiarFoto: 'Cambiar foto',
   info: 'Acerca de ProgressU',
   enfasis: 'Énfasis',
+  cambiarCarrera: 'Cambiar carrera',
+  carreras: {
+    titulo: 'Elige tu carrera',
+    texto: 'Tu avance se guarda por separado para cada carrera.',
+    opciones: (n) => `${n} opciones de plan o énfasis`,
+    avance: (p, a, t) => `${p} % · ${a} de ${t} créditos`,
+    actual: 'Carrera actual',
+  },
   creditosAprobados: 'Créditos aprobados',
   creditosTotales: 'Créditos totales',
   cita: 'Escribe aquí tu frase inspiradora',
@@ -44,7 +52,7 @@ export const T = {
     titulo: 'Bienvenido a ProgressU',
     texto: 'ProgressU es una herramienta para visualizar y dar seguimiento a tu avance en la carrera. Marca los cursos que ya aprobaste y la malla te muestra al instante cuáles puedes llevar (amarillo) y cuáles aún están bloqueados por requisitos (gris).',
     puntos: [
-      'Elige tu énfasis y el plan se ajusta solo.',
+      'Elige tu carrera y tu énfasis o plan, y la malla se ajusta sola.',
       'Consulta los requisitos de cada curso en el menú ···.',
       'Tu progreso se guarda en este navegador. No se envía a ningún servidor; puedes exportarlo como respaldo.',
     ],
@@ -55,6 +63,6 @@ export const T = {
   },
 };
 export const LINKEDIN = 'https://cr.linkedin.com/in/josvejr';
-export const ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+export const ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
 export const GITHUB = 'https://github.com/josveji';
-export const PIE = { autor: 'Josué María Jiménez Ramírez', derechos: 'Todos los derechos reservados.', linkedin: 'LinkedIn', github: 'GitHub' };
+export const PIE = { autor: 'Josué Jiménez R.', derechos: 'Todos los derechos reservados.', linkedin: 'LinkedIn', github: 'GitHub' };
