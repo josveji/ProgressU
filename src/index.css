@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aprobado: #39e554;
+  --color-disponible: #ffcc00;
+  --color-bloqueado: #d1d1d6;
+  --color-tinta: #16181d;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+body { background: #f4f5f8; color: var(--color-tinta); font-family: var(--font-sans); }
+:focus-visible { outline: 3px solid var(--color-tinta); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
