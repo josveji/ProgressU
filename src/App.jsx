@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import useProgreso from './hooks/useProgreso';
 import { bienvenidaVista, marcarBienvenida } from './logic/almacenamiento';
 import Encabezado from './components/layout/Encabezado';
+import Pie from './components/layout/Pie';
 import VentanaBienvenida from './components/bienvenida/VentanaBienvenida';
 import PaginaMalla from './pages/PaginaMalla';
 import { T } from './textos/es';
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
+      <Pie />
       {bienvenida && <VentanaBienvenida onCerrar={cerrar} />}
     </HashRouter>
   );

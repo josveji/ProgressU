@@ -41,3 +41,5 @@ export const T = {
 };
 export const LINKEDIN = 'https://cr.linkedin.com/in/josvejr';
 export const ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+export const GITHUB = 'https://github.com/josveji';
+export const PIE = { autor: 'Josué Jiménez R.', derechos: 'Todos los derechos reservados.', linkedin: 'LinkedIn', github: 'GitHub' };
