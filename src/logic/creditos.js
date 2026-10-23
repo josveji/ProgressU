@@ -1,5 +1,6 @@
 export function resumen(cursos, aprobados, total) {
-  const ap = cursos.filter((c) => aprobados.has(c.codigo)).reduce((s, c) => s + c.creditos, 0);
+  // Una ranura de optativa sin curso elegido no cuenta, aunque su código esté guardado.
+  const ap = cursos.filter((c) => aprobados.has(c.codigo) && !(c.optativa && !c.elegido)).reduce((s, c) => s + c.creditos, 0);
   return { aprobados: ap, total, porcentaje: total ? Math.min(100, Math.round((ap / total) * 100)) : 0 };
 }
 

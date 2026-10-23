@@ -3,5 +3,10 @@
   "id": "computadoras-y-redes",
   "nombre": "Computadoras y Redes",
   "creditosTotales": 140
+ },
+ {
+  "id": "electronica-y-telecomunicaciones",
+  "nombre": "Electrónica y Telecomunicaciones",
+  "creditosTotales": 141
  }
 ]
