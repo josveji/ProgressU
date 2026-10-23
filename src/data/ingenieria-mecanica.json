@@ -2,9 +2,9 @@
   "id": "ingenieria-mecanica",
   "carreraId": "ingenieria-mecanica",
   "carrera": "Bach. y Licenciatura en Ingeniería Mecánica",
-  "enfasis": null,
+  "enfasis": "General",
   "resolucion": "Informe Curricular CEA-06-2025",
-  "creditosTotales": 172,
+  "creditosTotales": 168,
   "creditosPorSemestre": [
     16,
     16,
@@ -70,8 +70,8 @@
           "correquisitos": []
         },
         {
-          "codigo": "OPT-",
-          "nombre": "Optativo de Química General",
+          "codigo": "OPT-QG-I",
+          "nombre": "Optativo de Química General I",
           "creditos": 0,
           "requisitos": [],
           "correquisitos": [],
@@ -103,8 +103,7 @@
           "nombre": "Cálculo II",
           "creditos": 4,
           "requisitos": [
-            "MA-1001",
-            "MA-1101"
+            "MA-1001"
           ],
           "correquisitos": []
         },
@@ -113,10 +112,7 @@
           "nombre": "Física General I",
           "creditos": 3,
           "requisitos": [
-            "MA-1001",
-            "MA-0250",
-            "MA-1210",
-            "MA-1101"
+            "MA-1001"
           ],
           "correquisitos": [
             "FS-0211"
@@ -127,14 +123,10 @@
           "nombre": "Laboratorio de Física General I",
           "creditos": 1,
           "requisitos": [
-            "MA-1001",
-            "MA-0250",
-            "MA-1210",
-            "MA-1101"
+            "MA-1001"
           ],
           "correquisitos": [
-            "FS-0210",
-            "FS-0227"
+            "FS-0210"
           ]
         },
         {
@@ -145,8 +137,8 @@
           "correquisitos": []
         },
         {
-          "codigo": "OPT-",
-          "nombre": "Optativo de Química General",
+          "codigo": "OPT-QG-II",
+          "nombre": "Optativo de Química General II",
           "creditos": 0,
           "requisitos": [],
           "correquisitos": [],
@@ -175,8 +167,7 @@
             "MA-1002"
           ],
           "correquisitos": [
-            "MA-1004",
-            "MA-0307"
+            "MA-1004"
           ]
         },
         {
@@ -192,8 +183,6 @@
           "creditos": 3,
           "requisitos": [
             "MA-1002",
-            "MA-2210",
-            "MA-0350",
             "FS-0210",
             "FS-0211"
           ],
@@ -206,16 +195,11 @@
           "nombre": "Laboratorio de Física General II",
           "creditos": 1,
           "requisitos": [
-            "FS-0210",
-            "FS-0227",
-            "FS-0211",
             "MA-1002",
-            "MA-2210",
-            "MA-0350"
+            "FS-0210"
           ],
           "correquisitos": [
-            "FS-0310",
-            "FS-0327"
+            "FS-0310"
           ]
         },
         {
@@ -223,13 +207,7 @@
           "nombre": "Principios de Informática",
           "creditos": 4,
           "requisitos": [
-            "MA-1001",
-            "MA-0225",
-            "MA-0205",
-            "MA-0230",
-            "MA-1210",
-            "CA-0151",
-            "MA-1101"
+            "MA-1001"
           ],
           "correquisitos": []
         }
@@ -254,8 +232,7 @@
           "requisitos": [
             "FS-0310",
             "FS-0311",
-            "MA-1003",
-            "MA-0450"
+            "MA-1003"
           ],
           "correquisitos": [
             "FS-0411"
@@ -267,14 +244,10 @@
           "creditos": 1,
           "requisitos": [
             "FS-0310",
-            "FS-0327",
-            "FS-0311",
-            "MA-1003",
-            "MA-0450"
+            "MA-1003"
           ],
           "correquisitos": [
-            "FS-0410",
-            "FS-0427"
+            "FS-0410"
           ]
         },
         {
@@ -293,8 +266,6 @@
           "creditos": 3,
           "requisitos": [
             "IM-0202",
-            "IM-0101",
-            "IB-0002",
             "FS-0210",
             "FS-0211",
             "MA-1002"
@@ -307,11 +278,7 @@
           "creditos": 4,
           "requisitos": [
             "MA-1002",
-            "MA-1004",
-            "MA-1023",
-            "MA-0292",
-            "MA-0294",
-            "MA-0232"
+            "MA-1004"
           ],
           "correquisitos": []
         },
@@ -323,9 +290,6 @@
             "FS-0310",
             "FS-0311",
             "MA-1002",
-            "QU-0101",
-            "QU-0115",
-            "QU-0100",
             "QU-0114"
           ],
           "correquisitos": []
@@ -453,7 +417,6 @@
           "creditos": 3,
           "requisitos": [
             "IM-0203",
-            "II-0305",
             "II-0306"
           ],
           "correquisitos": []
@@ -795,13 +758,7 @@
         "codigo": "ND-0008",
         "nombre": "Biomímesis, Biomateriales y Desafíos Socioecológicos",
         "requisitos": [
-          "AQ-0106",
-          "IM-0451",
-          "AP-7003",
-          "AP-7011",
-          "AP-7015",
-          "AP-7007",
-          "B-0218"
+          "IM-0451"
         ],
         "correquisitos": [],
         "creditos": 3
@@ -863,13 +820,5 @@
       "requisitos": [],
       "detalle": "Para realizar la práctica profesional, se deben haber aprobado todas las asignaturas del plan hasta el octavo ciclo inclusive, con un total de 141 créditos; debe coordinarse con la Escuela de Ingeniería Mecánica."
     }
-  ],
-  "notas": [
-    "El plan corresponde al Bachillerato y Licenciatura en Ingeniería Mecánica, código 420401, plan 2; actualización indicada en el documento: 21/05/2025.",
-    "Las listas de requisitos incluyen alternativas separadas por «o» en el PDF; el formato de referencia usa arreglos simples y no permite representar explícitamente la lógica alternativa. Verificar el PDF antes de interpretar todos los códigos de un arreglo como requisitos simultáneos.",
-    "El curso IM-0431 Plantas de Vapor puede alternarse con IM-0409 Máquinas Hidráulicas, dependiendo de la especialidad del estudiantado.",
-    "Los cursos optativos deben escogerse previa consulta con el profesor consejero.",
-    "El optativo de Química General puede corresponder al bloque QU-0100, QU-0101, QU-0102 y QU-0103, sujeto a las condiciones transitorias indicadas en el plan.",
-    "Discrepancia detectada en el documento fuente: los subtotales publicados por ciclo suman 168 créditos, pero el documento declara TOTAL DEL BACHILLERATO = 141, TOTAL DE LA LICENCIATURA = 31 y TOTAL = 172. Se conserva creditosTotales = 172 tal como aparece en el plan."
   ]
 }
