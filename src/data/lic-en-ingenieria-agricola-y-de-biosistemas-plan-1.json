@@ -1,0 +1,688 @@
+{
+  "id": "lic-en-ingenieria-agricola-y-de-biosistemas-plan-1",
+  "carreraId": "ingenieria-agricola-y-de-biosistemas",
+  "carrera": "Lic. en Ingeniería Agrícola y de Biosistemas",
+  "carreraNombre": "Ingeniería Agrícola y de Biosistemas",
+  "enfasis": "Bloque Común",
+  "etiquetaSelector": "Plan",
+  "resolucion": "Resolución del plan de 2016",
+  "creditosTotales": 178,
+  "creditosPorSemestre": [18, 17, 4, 18, 17, 7, 17, 17, 3, 17, 15, 16, 12, 0],
+  "semestres": [
+    {
+      "numero": 1,
+      "cursos": [
+        {
+          "codigo": "EG-",
+          "nombre": "Curso de Arte",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-1",
+          "nombre": "Curso Integrado de Humanidades I",
+          "creditos": 6,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0001",
+          "nombre": "Introducción a la Ingeniería Agrícola y de Biosistemas",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA0001",
+          "nombre": "Precálculo",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1001",
+          "nombre": "Cálculo I",
+          "creditos": 3,
+          "requisitos": ["MA0001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "QU0114",
+          "nombre": "Química General Intensiva",
+          "creditos": 4,
+          "requisitos": [],
+          "correquisitos": ["QU0115"]
+        },
+        {
+          "codigo": "QU0115",
+          "nombre": "Laboratorio de Química General Intensiva",
+          "creditos": 1,
+          "requisitos": [],
+          "correquisitos": ["QU0114"]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "cursos": [
+        {
+          "codigo": "EF-",
+          "nombre": "Actividad Deportiva",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-II",
+          "nombre": "Curso Integrado de Humanidades II",
+          "creditos": 6,
+          "requisitos": ["EG-1"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "FS0210",
+          "nombre": "Física General I",
+          "creditos": 3,
+          "requisitos": ["MA1001"],
+          "correquisitos": ["FS0211"]
+        },
+        {
+          "codigo": "FS0211",
+          "nombre": "Laboratorio de Física General I",
+          "creditos": 1,
+          "requisitos": ["MA1001"],
+          "correquisitos": ["FS0210"]
+        },
+        {
+          "codigo": "IB0002",
+          "nombre": "Diseño Gráfico en Ingeniería",
+          "creditos": 3,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1002",
+          "nombre": "Cálculo II",
+          "creditos": 4,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "cursos": [
+        {
+          "codigo": "LM1030",
+          "nombre": "Estrategias de Lectura en Inglés I (para otros planes)",
+          "creditos": 4,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "cursos": [
+        {
+          "codigo": "B0106",
+          "nombre": "Biología General",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": ["B0107"]
+        },
+        {
+          "codigo": "B0107",
+          "nombre": "Laboratorio de Biología General",
+          "creditos": 1,
+          "requisitos": [],
+          "correquisitos": ["B0106"]
+        },
+        {
+          "codigo": "CI0202",
+          "nombre": "Principios de Informática",
+          "creditos": 4,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "FS0310",
+          "nombre": "Física General II",
+          "creditos": 3,
+          "requisitos": ["FS0210", "FS0211", "MA1002"],
+          "correquisitos": ["FS0311"]
+        },
+        {
+          "codigo": "FS0311",
+          "nombre": "Laboratorio de Física General II",
+          "creditos": 1,
+          "requisitos": ["FS0210", "FS0211", "MA1002"],
+          "correquisitos": ["FS0310"]
+        },
+        {
+          "codigo": "IM0207",
+          "nombre": "Mecánica I",
+          "creditos": 3,
+          "requisitos": ["FS0210", "FS0211", "IB0002", "MA1002"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA2210",
+          "nombre": "Ecuaciones Diferenciales Aplicadas",
+          "creditos": 3,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "cursos": [
+        {
+          "codigo": "IB0049",
+          "nombre": "Estadística y Diseño Experimental",
+          "creditos": 3,
+          "requisitos": ["CI0202", "LM1030"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IM0307",
+          "nombre": "Mecanica II",
+          "creditos": 4,
+          "requisitos": ["IM0207"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IM0313",
+          "nombre": "Termodinamica I",
+          "creditos": 3,
+          "requisitos": ["FS0310", "FS0311", "MA1002", "QU0114", "QU0115"],
+          "correquisitos": ["QU0101"]
+        },
+        {
+          "codigo": "IM0315",
+          "nombre": "Mecánica del Sólido I",
+          "creditos": 3,
+          "requisitos": ["IM0207"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "QU0210",
+          "nombre": "Fundamentos de Química Orgánica",
+          "creditos": 3,
+          "requisitos": ["QU0114", "QU0115"],
+          "correquisitos": ["QU0211"]
+        },
+        {
+          "codigo": "QU0211",
+          "nombre": "Laboratorio de Fundamentos de Química Orgánica",
+          "creditos": 1,
+          "requisitos": ["QU0114", "QU0115"],
+          "correquisitos": ["QU0210"]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "cursos": [
+        {
+          "codigo": "IB0003",
+          "nombre": "Prácticas en Ingeniería Agrícola y de Biosistemas I",
+          "creditos": 3,
+          "requisitos": ["B0106", "FS0210", "IB0001", "IB0002", "QU0114", "QU0115"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "LM1032",
+          "nombre": "Estrategias de Lectura en Inglés II (para otros planes)",
+          "creditos": 4,
+          "requisitos": ["LM1030"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "cursos": [
+        {
+          "codigo": "IB0008",
+          "nombre": "Edafología y Mecánica de Suelos",
+          "creditos": 3,
+          "requisitos": ["B0106", "B0107", "FS0310", "IM0315", "QU0210", "QU0211"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0042",
+          "nombre": "Aplicaciones Numericas en Biosistemas",
+          "creditos": 4,
+          "requisitos": ["IB0049", "MA2210"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IM0423",
+          "nombre": "Mecánica de Fluidos",
+          "creditos": 3,
+          "requisitos": ["IM0307", "IM0313"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MB1000",
+          "nombre": "Fundamentos de Microbiología",
+          "creditos": 4,
+          "requisitos": ["B0106", "B0107", "QU0210", "QU0211"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "T1200",
+          "nombre": "Topografía",
+          "creditos": 3,
+          "requisitos": ["FS0310", "IB0002"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "cursos": [
+        {
+          "codigo": "IB0007",
+          "nombre": "Transferencia de Calor en Biosistemas",
+          "creditos": 3,
+          "requisitos": ["IM0313", "IM0423"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0009",
+          "nombre": "Maquinaria y Equipo Agroindustrial",
+          "creditos": 3,
+          "requisitos": ["IM0423"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0043",
+          "nombre": "Producción en Biosistemas I",
+          "creditos": 3,
+          "requisitos": ["IB0008"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0045",
+          "nombre": "Hidráulica",
+          "creditos": 4,
+          "requisitos": ["IB0042", "IM0423"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0050",
+          "nombre": "Geomática en Ingeniería Agrícola y en Biosistemas",
+          "creditos": 3,
+          "requisitos": ["IB0042", "LM1032", "T1200"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "SR-I",
+          "nombre": "Seminario de Realidad Nacional I",
+          "creditos": 2,
+          "requisitos": ["EG-II"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "cursos": [
+        {
+          "codigo": "IB0004",
+          "nombre": "Prácticas en Ingeniería Agrícola y de Biosistemas II",
+          "creditos": 3,
+          "requisitos": ["IB0043", "IB0045"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "cursos": [
+        {
+          "codigo": "IB0010",
+          "nombre": "Instalaciones Eléctricas Agroindustriales",
+          "creditos": 3,
+          "requisitos": ["FS0310", "FS0311", "IB0009"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0012",
+          "nombre": "Diseño de Sistemas para el Control de Ambiente",
+          "creditos": 3,
+          "requisitos": ["IB0002", "IB0007"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0013",
+          "nombre": "Hidrología Aplicada",
+          "creditos": 3,
+          "requisitos": ["IB0008", "IB0045", "IB0049"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0017",
+          "nombre": "Propiedades de Ingeniería de los Materiales Biológicos",
+          "creditos": 3,
+          "requisitos": ["IB0007", "MB1000"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0022",
+          "nombre": "Maquinaria para Producción",
+          "creditos": 3,
+          "requisitos": ["IB0009", "IM0315"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0044",
+          "nombre": "Producción en Biosistemas II",
+          "creditos": 2,
+          "requisitos": ["IB0003", "IB0043"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "cursos": [
+        {
+          "codigo": "IB0018",
+          "nombre": "Operaciones Unitarias en Biosistemas",
+          "creditos": 3,
+          "requisitos": ["IB0012", "IB0017", "IB0049"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0024",
+          "nombre": "Sistemas de Mecanización",
+          "creditos": 3,
+          "requisitos": ["IB0010", "IB0022"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0046",
+          "nombre": "Seminario en Ingeniería Agrícola y de Biosistemas I",
+          "creditos": 1,
+          "requisitos": ["IB0008", "IB0017", "IB0022"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0048",
+          "nombre": "Ingeniería Económica",
+          "creditos": 3,
+          "requisitos": ["IB0022", "IB0044"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "RP-1",
+          "nombre": "Repertorio",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "SR-II",
+          "nombre": "Seminario de Realidad Nacional II",
+          "creditos": 2,
+          "requisitos": ["SR-I"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "cursos": [
+        {
+          "codigo": "IB0014",
+          "nombre": "Diseño de Sistemas de Drenaje y Aguas Subterráneas",
+          "creditos": 3,
+          "requisitos": ["IB0013"],
+          "correquisitos": ["IB0015"]
+        },
+        {
+          "codigo": "IB0015",
+          "nombre": "Diseño de Sistemas de Riego I",
+          "creditos": 3,
+          "requisitos": ["IB0013"],
+          "correquisitos": ["IB0014"]
+        },
+        {
+          "codigo": "IB0030",
+          "nombre": "Sistemas de Procesamiento de Granos, Semillas y Forrajes",
+          "creditos": 3,
+          "requisitos": ["IB0018", "IB0022"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0035",
+          "nombre": "Bioenergía",
+          "creditos": 3,
+          "requisitos": ["IB0018", "IB0044"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0047",
+          "nombre": "Seminario en Ingeniería Agrícola y de Biosistemas II",
+          "creditos": 1,
+          "requisitos": ["IB0046"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "OPT1084-1",
+          "nombre": "Curso Optativo 1",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1084"
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "cursos": [
+        {
+          "codigo": "IB0019",
+          "nombre": "Ingeniería Ambiental",
+          "creditos": 3,
+          "requisitos": ["IB0014", "IB0044"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0026",
+          "nombre": "Energía en la Agricultura",
+          "creditos": 3,
+          "requisitos": ["IB0024", "IB0035"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IB0034",
+          "nombre": "Procesos de Transformación y Empaque",
+          "creditos": 3,
+          "requisitos": ["IB0018"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "OPT1084-2",
+          "nombre": "Curso Optativo 2",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1084"
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "cursos": [
+        {
+          "codigo": "OPT1116-1",
+          "nombre": "Bloque de TFG",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1116"
+        }
+      ]
+    }
+  ],
+  "optativas": {
+    "OPT1084": [
+      {
+        "codigo": "IB0016",
+        "nombre": "Fundamentos de Diseño de Maquinaria y Equipo",
+        "creditos": 3,
+        "requisitos": ["IB0012", "IB0022"]
+      },
+      {
+        "codigo": "IB0025",
+        "nombre": "Automatización y Control",
+        "creditos": 3,
+        "requisitos": ["IB0012"]
+      },
+      {
+        "codigo": "IB0027",
+        "nombre": "Potencia Hidráulica y Neumática Aplicada",
+        "creditos": 3,
+        "requisitos": ["IB0022"]
+      },
+      {
+        "codigo": "IB0028",
+        "nombre": "Diseño de Máquinas Agrícolas",
+        "creditos": 3,
+        "requisitos": ["IB0016"]
+      },
+      {
+        "codigo": "IB0029",
+        "nombre": "Análisis y Modelado en Biosistemas",
+        "creditos": 3,
+        "requisitos": ["IB0018"]
+      },
+      {
+        "codigo": "IB0031",
+        "nombre": "Gestión de Calidad y Ambiente en Biosistemas",
+        "creditos": 3,
+        "requisitos": ["IB0018"]
+      },
+      {
+        "codigo": "IB0032",
+        "nombre": "Ingeniería de Bioprocesos",
+        "creditos": 3,
+        "requisitos": ["IB0016", "IB0018", "IB0043"]
+      },
+      {
+        "codigo": "IB0033",
+        "nombre": "Infraestructura Agricola",
+        "creditos": 3,
+        "requisitos": ["IB0018", "IM0315"]
+      },
+      {
+        "codigo": "IB0036",
+        "nombre": "Simulación y Control de Inundaciones",
+        "creditos": 3,
+        "requisitos": ["IB0013"]
+      },
+      {
+        "codigo": "IB0037",
+        "nombre": "Sistemas de Producción Intensiva",
+        "creditos": 3,
+        "requisitos": ["IB0015"]
+      },
+      {
+        "codigo": "IB0038",
+        "nombre": "Diseño de Infraestructura Hidráulica",
+        "creditos": 3,
+        "requisitos": ["IB0014"]
+      },
+      {
+        "codigo": "IB0039",
+        "nombre": "Diseño de Sistemas para el Control de Erosión",
+        "creditos": 3,
+        "requisitos": ["IB0013"]
+      },
+      {
+        "codigo": "IB0040",
+        "nombre": "Manejo Integrado de Cuencas",
+        "creditos": 3,
+        "requisitos": ["IB0013"]
+      },
+      {
+        "codigo": "IB0041",
+        "nombre": "Diseño de Sistemas de Riego II",
+        "creditos": 3,
+        "requisitos": ["IB0015"]
+      }
+    ],
+    "OPT1116": [
+      {
+        "codigo": "IB9500",
+        "nombre": "Investigación Dirigida 1",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "IB9501",
+        "nombre": "Investigación Dirigida 2",
+        "creditos": 0,
+        "requisitos": ["IB9500"]
+      },
+      {
+        "codigo": "IB9502",
+        "nombre": "Investigación Dirigida 3",
+        "creditos": 0,
+        "requisitos": ["IB9501"]
+      },
+      {
+        "codigo": "IB9700",
+        "nombre": "Práctica Dirigida 1",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "IB9701",
+        "nombre": "Práctica Dirigida 2",
+        "creditos": 0,
+        "requisitos": ["IB9700"]
+      },
+      {
+        "codigo": "IB9702",
+        "nombre": "Práctica Dirigida 3",
+        "creditos": 0,
+        "requisitos": ["IB9701"]
+      },
+      {
+        "codigo": "IB9800",
+        "nombre": "Proyecto de Graduación I",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "IB9801",
+        "nombre": "Proyecto de Graduación II",
+        "creditos": 0,
+        "requisitos": ["IB9800"]
+      },
+      {
+        "codigo": "IB9802",
+        "nombre": "Proyecto de Graduación III",
+        "creditos": 0,
+        "requisitos": ["IB9801"]
+      }
+    ]
+  },
+  "hitos": [
+    {
+      "id": "tcu",
+      "nombre": "Trabajo Comunitario Universitario (TCU)",
+      "despuesDeSemestre": 6,
+      "creditosMinimos": null,
+      "requisitos": [],
+      "detalle": "El y la estudiante deben aprobar 300 horas de Trabajo Comunitario Universitario (TCU)."
+    }
+  ]
+}
