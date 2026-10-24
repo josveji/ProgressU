@@ -440,8 +440,7 @@
           "nombre": "Investigación Dirigida I",
           "creditos": 0,
           "requisitos": [],
-          "correquisitos": [],
-          "optativa": "OPT1115"
+          "correquisitos": []
         }
       ]
     }
