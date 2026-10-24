@@ -1,0 +1,765 @@
+{
+  "id": "licenciatura-en-ingenieria-civil",
+  "carreraId": "ingenieria-civil",
+  "carrera": "Lic. en Ingeniería Civil",
+  "carreraNombre": "Ingeniería Civil",
+  "enfasis": "Bloque Común",
+  "etiquetaSelector": "Plan",
+  "resolucion": "VD-R-10572-2018",
+  "creditosTotales": 173,
+  "creditosPorSemestre": [17, 19, 18, 19, 18, 18, 19, 18, 15, 12, 0],
+  "semestres": [
+    {
+      "numero": 1,
+      "cursos": [
+        {
+          "codigo": "EG-",
+          "nombre": "Curso de Arte",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-I",
+          "nombre": "Curso Integrado de Humanidades I",
+          "creditos": 6,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0101",
+          "nombre": "Taller de Introducción a la Ingeniería",
+          "creditos": 3,
+          "requisitos": ["MA0001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA0001",
+          "nombre": "Precálculo",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1001",
+          "nombre": "Cálculo I",
+          "creditos": 3,
+          "requisitos": ["MA0001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "RP-1",
+          "nombre": "Repertorio",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "cursos": [
+        {
+          "codigo": "EF-",
+          "nombre": "Actividad Deportiva",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-II",
+          "nombre": "Curso Integrado de Humanidades II",
+          "creditos": 6,
+          "requisitos": ["EG-I"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "FS0210",
+          "nombre": "Física General I",
+          "creditos": 3,
+          "requisitos": ["MA1001"],
+          "correquisitos": ["FS0211"]
+        },
+        {
+          "codigo": "FS0211",
+          "nombre": "Laboratorio de Física General I",
+          "creditos": 1,
+          "requisitos": ["MA1001"],
+          "correquisitos": ["FS0210"]
+        },
+        {
+          "codigo": "MA1002",
+          "nombre": "Cálculo II",
+          "creditos": 4,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "QU0114",
+          "nombre": "Química General Intensiva",
+          "creditos": 4,
+          "requisitos": [],
+          "correquisitos": ["QU0115"]
+        },
+        {
+          "codigo": "QU0115",
+          "nombre": "Laboratorio de Química General Intensiva",
+          "creditos": 1,
+          "requisitos": [],
+          "correquisitos": ["QU0114"]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "cursos": [
+        {
+          "codigo": "CI0202",
+          "nombre": "Principios de Informática",
+          "creditos": 4,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "FS0310",
+          "nombre": "Física General II",
+          "creditos": 3,
+          "requisitos": ["FS0210", "FS0211", "MA1002"],
+          "correquisitos": ["FS0311"]
+        },
+        {
+          "codigo": "FS0311",
+          "nombre": "Laboratorio de Física General II",
+          "creditos": 1,
+          "requisitos": ["FS0210", "FS0211", "MA1002"],
+          "correquisitos": ["FS0310"]
+        },
+        {
+          "codigo": "IC0302",
+          "nombre": "Diseño Gráfico",
+          "creditos": 3,
+          "requisitos": ["FS0210", "FS0211", "IC0101", "MA1002"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1003",
+          "nombre": "Cálculo III",
+          "creditos": 4,
+          "requisitos": ["MA1002"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1004",
+          "nombre": "Álgebra Lineal",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "cursos": [
+        {
+          "codigo": "FS0410",
+          "nombre": "Física General III",
+          "creditos": 3,
+          "requisitos": ["FS0310", "FS0311", "MA1003"],
+          "correquisitos": ["FS0411"]
+        },
+        {
+          "codigo": "FS0411",
+          "nombre": "Laboratorio de Física General III",
+          "creditos": 1,
+          "requisitos": ["FS0310", "FS0311", "MA1003"],
+          "correquisitos": ["FS0410"]
+        },
+        {
+          "codigo": "IC0401",
+          "nombre": "Estática",
+          "creditos": 4,
+          "requisitos": ["FS0310", "FS0311", "IC0302", "MA1003"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0403",
+          "nombre": "Comunicación Técnica",
+          "creditos": 3,
+          "requisitos": ["IC0302"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0410",
+          "nombre": "Seminario de Ética, Ingeniería y Sociedad",
+          "creditos": 1,
+          "requisitos": ["IC0302"],
+          "correquisitos": ["IC0403"]
+        },
+        {
+          "codigo": "IT0001",
+          "nombre": "Fundamentos de Ingeniería Topográfica",
+          "creditos": 3,
+          "requisitos": ["FS0310", "FS0311", "IC0302"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1005",
+          "nombre": "Ecuaciones Diferenciales",
+          "creditos": 4,
+          "requisitos": ["MA1002", "MA1004"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "cursos": [
+        {
+          "codigo": "IC0502",
+          "nombre": "Dinámica",
+          "creditos": 3,
+          "requisitos": ["FS0410", "FS0411", "IC0401", "MA1005"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0510",
+          "nombre": "Mecánica del Sólido I",
+          "creditos": 4,
+          "requisitos": ["IC0401", "MA1005", "QU0114", "QU0115"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0516",
+          "nombre": "Probabilidad y Estadística Aplicada a la Ingeniería",
+          "creditos": 3,
+          "requisitos": ["CI0202", "MA1005"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1006",
+          "nombre": "Introducción al Análisis Numérico",
+          "creditos": 4,
+          "requisitos": ["CI0202", "MA1005"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "XE0156",
+          "nombre": "Introducción a la Economía",
+          "creditos": 4,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "cursos": [
+        {
+          "codigo": "IC0604",
+          "nombre": "Materiales de Construcción",
+          "creditos": 3,
+          "requisitos": ["IC0510", "IC0516"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0605",
+          "nombre": "Mecánica de Fluídos",
+          "creditos": 3,
+          "requisitos": ["IC0502", "IC0510", "IC0516", "MA1006"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0607",
+          "nombre": "Taller de Sistemas de Ingeniería",
+          "creditos": 4,
+          "requisitos": ["IC0403", "IC0410", "IC0502", "IC0510", "IC0516", "MA1006"],
+          "correquisitos": ["IC0811"]
+        },
+        {
+          "codigo": "IC0610",
+          "nombre": "Mecánica del Sólido II",
+          "creditos": 3,
+          "requisitos": ["IC0510"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0811",
+          "nombre": "Administración en Ingeniería",
+          "creditos": 3,
+          "requisitos": ["IC0516", "XE0156"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "SR-I",
+          "nombre": "Seminario de Realidad Nacional I",
+          "creditos": 2,
+          "requisitos": ["EG-II"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "cursos": [
+        {
+          "codigo": "IC0701",
+          "nombre": "Análisis Estructural",
+          "creditos": 3,
+          "requisitos": ["IC0610"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0703",
+          "nombre": "Mecánica de Suelos",
+          "creditos": 4,
+          "requisitos": ["IC0604", "IC0605", "IC0610"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0704",
+          "nombre": "Métodos Constructivos I",
+          "creditos": 3,
+          "requisitos": ["IC0604", "IT0001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0709",
+          "nombre": "Hidráulica General",
+          "creditos": 3,
+          "requisitos": ["IC0605"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0711",
+          "nombre": "Transportes",
+          "creditos": 3,
+          "requisitos": ["IC0607"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0712",
+          "nombre": "Fundamentos de Ingeniería Ambiental",
+          "creditos": 3,
+          "requisitos": ["IC0605"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "cursos": [
+        {
+          "codigo": "IC0801",
+          "nombre": "Concreto Reforzado",
+          "creditos": 3,
+          "requisitos": ["IC0604", "IC0701"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0804",
+          "nombre": "Programación y Presupuestación de Obra",
+          "creditos": 3,
+          "requisitos": ["IC0704", "IC0811"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0808",
+          "nombre": "Hidrología",
+          "creditos": 3,
+          "requisitos": ["IC0709", "IC0712", "IT0001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0809",
+          "nombre": "Ingeniería Geotécnica",
+          "creditos": 3,
+          "requisitos": ["IC0703"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC0810",
+          "nombre": "Diseño Vial",
+          "creditos": 3,
+          "requisitos": ["IC0703", "IC0711", "IT0001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IC1006",
+          "nombre": "Análisis de Impacto Ambiental",
+          "creditos": 3,
+          "requisitos": ["IC0712"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "cursos": [
+        {
+          "codigo": "IC0905",
+          "nombre": "Taller de Diseño",
+          "creditos": 4,
+          "requisitos": ["IC0801", "IC0804", "IC0808", "IC0809", "IC0810", "IC1006"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "OPT1119-1",
+          "nombre": "Optativo de Ingeniería Civil I",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1119"
+        },
+        {
+          "codigo": "OPT1119-2",
+          "nombre": "Optativo de Ingeniería Civil II",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1119"
+        },
+        {
+          "codigo": "OPT1119-3",
+          "nombre": "Optativo de Ingeniería Civil III",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1119"
+        },
+        {
+          "codigo": "SR-II",
+          "nombre": "Seminario de Realidad Nacional II",
+          "creditos": 2,
+          "requisitos": ["SR-I"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "cursos": [
+        {
+          "codigo": "OPT1119-4",
+          "nombre": "Optativo de Ingeniería Civil IV",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1119"
+        },
+        {
+          "codigo": "OPT1119-5",
+          "nombre": "Optativo de Ingeniería Civil V",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1119"
+        },
+        {
+          "codigo": "OPT1119-6",
+          "nombre": "Optativo de Ingeniería Civil VI",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1119"
+        },
+        {
+          "codigo": "OPT1119-7",
+          "nombre": "Optativo de Ingeniería Civil VII",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1119"
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "cursos": [
+        {
+          "codigo": "OPT1193-1",
+          "nombre": "Bloque TFG",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1193"
+        }
+      ]
+    }
+  ],
+  "optativas": {
+    "OPT1119": [
+      {
+        "codigo": "IC0904",
+        "nombre": "Planificación y Gestión de Proyectos",
+        "creditos": 3,
+        "requisitos": ["IC0804"]
+      },
+      {
+        "codigo": "IC0911",
+        "nombre": "Análisis Estructural Avanzado",
+        "creditos": 3,
+        "requisitos": ["IC0801", "IC0809"]
+      },
+      {
+        "codigo": "IC0912",
+        "nombre": "Diseño de Estructuras de Concreto",
+        "creditos": 3,
+        "requisitos": ["IC0801", "IC0809"]
+      },
+      {
+        "codigo": "IC0913",
+        "nombre": "Mecánica de Suelos Aplicada",
+        "creditos": 3,
+        "requisitos": ["IC0801", "IC0809"]
+      },
+      {
+        "codigo": "IC0914",
+        "nombre": "Hidrología Avanzada",
+        "creditos": 3,
+        "requisitos": ["IC0712", "IC0808"]
+      },
+      {
+        "codigo": "IC0915",
+        "nombre": "Ingeniería Marítima",
+        "creditos": 3,
+        "requisitos": ["IC0808"]
+      },
+      {
+        "codigo": "IC0917",
+        "nombre": "Sistemas de Drenaje Pluvial",
+        "creditos": 3,
+        "requisitos": ["IC0808"]
+      },
+      {
+        "codigo": "IC0921",
+        "nombre": "Recursos Hidráulicos",
+        "creditos": 3,
+        "requisitos": ["IC0808"]
+      },
+      {
+        "codigo": "IC0922",
+        "nombre": "Hidráulica Avanzada",
+        "creditos": 3,
+        "requisitos": ["IC0808"]
+      },
+      {
+        "codigo": "IC0924",
+        "nombre": "Sistemas de Tratamiento de Aguas",
+        "creditos": 3,
+        "requisitos": ["IC0808", "IC0809"]
+      },
+      {
+        "codigo": "IC0934",
+        "nombre": "Ingeniería de Tránsito",
+        "creditos": 3,
+        "requisitos": ["IC0810"]
+      },
+      {
+        "codigo": "IC0936",
+        "nombre": "Ordenamiento Territorial y Sistemas de Infraestructura Urbana",
+        "creditos": 3,
+        "requisitos": ["IC0810"]
+      },
+      {
+        "codigo": "IC0937",
+        "nombre": "Planificación del Transporte",
+        "creditos": 3,
+        "requisitos": ["IC0810"]
+      },
+      {
+        "codigo": "IC0938",
+        "nombre": "Seguridad Vial",
+        "creditos": 3,
+        "requisitos": ["IC0810"]
+      },
+      {
+        "codigo": "IC0942",
+        "nombre": "Métodos Constructivos II",
+        "creditos": 3,
+        "requisitos": ["IC0804"]
+      },
+      {
+        "codigo": "IC0944",
+        "nombre": "Inspección de Obras",
+        "creditos": 3,
+        "requisitos": ["IC0804", "IC0809"]
+      },
+      {
+        "codigo": "IC0951",
+        "nombre": "Conceptos Básicos de la Ingeniería Estructural",
+        "creditos": 3,
+        "requisitos": ["IC0801", "IC0809"]
+      },
+      {
+        "codigo": "IC0952",
+        "nombre": "Diseño de Estructuras de Madera",
+        "creditos": 3,
+        "requisitos": ["IC0801", "IC0809"]
+      },
+      {
+        "codigo": "IC1011",
+        "nombre": "Diseño Estructural",
+        "creditos": 3,
+        "requisitos": ["IC0912", "IC0951"]
+      },
+      {
+        "codigo": "IC1012",
+        "nombre": "Diseño de Estructuras de Acero",
+        "creditos": 3,
+        "requisitos": ["IC0801", "IC0809"]
+      },
+      {
+        "codigo": "IC1013",
+        "nombre": "Ingeniería de Cimentaciones",
+        "creditos": 3,
+        "requisitos": ["IC0809", "IC0913"]
+      },
+      {
+        "codigo": "IC1014",
+        "nombre": "Diseño de Estructuras de Mampostería",
+        "creditos": 3,
+        "requisitos": ["IC0801", "IC0809"]
+      },
+      {
+        "codigo": "IC1015",
+        "nombre": "Análisis y Diseño Estructural de Puentes",
+        "creditos": 3,
+        "requisitos": ["IC0801", "IC0809"]
+      },
+      {
+        "codigo": "IC1016",
+        "nombre": "Diseño Geotécnico",
+        "creditos": 3,
+        "requisitos": ["IC0913"]
+      },
+      {
+        "codigo": "IC1017",
+        "nombre": "Ingeniería Geoambiental",
+        "creditos": 3,
+        "requisitos": ["IC0703", "IC0808", "IC1006"]
+      },
+      {
+        "codigo": "IC1018",
+        "nombre": "Tópicos de Ingeniería Geotécnica",
+        "creditos": 3,
+        "requisitos": ["IC0808", "IC0809"]
+      },
+      {
+        "codigo": "IC1021",
+        "nombre": "Obras Hidráulicas",
+        "creditos": 3,
+        "requisitos": ["IC0801", "IC0808", "IC0809"]
+      },
+      {
+        "codigo": "IC1024",
+        "nombre": "Diseño de Acueductos y Alcantarillados Sanitarios",
+        "creditos": 3,
+        "requisitos": ["IC0703", "IC0808"]
+      },
+      {
+        "codigo": "IC1025",
+        "nombre": "Diseño para la Gestión Integral de Residuos Sólidos",
+        "creditos": 3,
+        "requisitos": ["IC0808"]
+      },
+      {
+        "codigo": "IC1026",
+        "nombre": "Construcción Sostenible",
+        "creditos": 3,
+        "requisitos": ["IC0704", "IC1006"]
+      },
+      {
+        "codigo": "IC1031",
+        "nombre": "Introducción al Diseño de Pavimentos",
+        "creditos": 3,
+        "requisitos": ["IC0809", "IC0810"]
+      },
+      {
+        "codigo": "IC1041",
+        "nombre": "Administración de Empresas Constructoras",
+        "creditos": 3,
+        "requisitos": ["IC0804"]
+      },
+      {
+        "codigo": "IC1045",
+        "nombre": "Avalúos Inmobiliarios",
+        "creditos": 3,
+        "requisitos": ["IC0804"]
+      },
+      {
+        "codigo": "IC1111",
+        "nombre": "Tópicos de Ingeniería del Ambiente",
+        "creditos": 3,
+        "requisitos": ["IC0808"]
+      },
+      {
+        "codigo": "IC1112",
+        "nombre": "Tópicos de Ingeniería en Construcción",
+        "creditos": 3,
+        "requisitos": ["IC0804"]
+      },
+      {
+        "codigo": "IC1113",
+        "nombre": "Tópicos de Ingeniería de Estructuras",
+        "creditos": 3,
+        "requisitos": ["IC0912", "IC0951"]
+      },
+      {
+        "codigo": "IC1114",
+        "nombre": "Tópicos de Ingeniería de Transportes",
+        "creditos": 3,
+        "requisitos": ["IC0810", "IC0811"]
+      },
+      {
+        "codigo": "IC1302",
+        "nombre": "Transporte Público",
+        "creditos": 3,
+        "requisitos": ["IC0810"]
+      }
+    ],
+    "OPT1193": [
+      {
+        "codigo": "TESIS",
+        "nombre": "Tesis de Graduación",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "SEMINARIO",
+        "nombre": "Seminario de Graduación",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "PROYECTO",
+        "nombre": "Proyecto de Graduación",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "PRACTICA",
+        "nombre": "Práctica Dirigida de Graduación",
+        "creditos": 0,
+        "requisitos": []
+      }
+    ]
+  },
+  "hitos": [
+    {
+      "id": "tcu",
+      "nombre": "Trabajo Comunal Universitario (300 horas)",
+      "despuesDeSemestre": 11,
+      "creditosMinimos": null,
+      "requisitos": [],
+      "detalle": "El estudiantado debe haber cumplido con 300 horas de Trabajo Comunal Universitario para obtener el título de Licenciatura."
+    },
+    {
+      "id": "practica-profesional",
+      "nombre": "Práctica Profesional (300 horas y 50 horas conferencia)",
+      "despuesDeSemestre": 11,
+      "creditosMinimos": 173,
+      "requisitos": [],
+      "detalle": "El estudiantado debe cumplir con 300 horas de Práctica profesional y 50 Horas conferencia para obtener el título de Licenciatura en Ingeniería Civil."
+    }
+  ]
+}
