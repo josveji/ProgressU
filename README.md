@@ -23,7 +23,8 @@ npm run build      # valida y compila a dist/
 
 1. Crea `src/data/<id>.json` con el mismo formato que los existentes. El `id` debe coincidir con el nombre del archivo.
 2. Incluye `carreraId` y `carrera` (los planes con el mismo `carreraId` se agrupan en una carrera) y `enfasis` (el nombre que aparece en el selector).
-3. Opcional: `etiquetaSelector` cambia la palabra del selector (por ejemplo "Plan" en vez de "Énfasis").
+3. Opcional: `planBase` (id de otro plan de la misma carrera) permite que un plan use como requisitos cursos de ese plan, por ejemplo una Licenciatura que solo contiene sus últimos semestres.
+   Opcional: `etiquetaSelector` cambia la palabra del selector (por ejemplo "Plan" en vez de "Énfasis").
    También es opcional `"porDefecto": true`, que hace que ese plan sea el primero y el que se abre al elegir la carrera.
 4. Ejecuta `npm run validar`. No hay que registrar nada más: la app detecta el archivo sola.
 

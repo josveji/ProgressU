@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { planes } from '../data';
 import ResumenProgreso from '../components/panel/ResumenProgreso';
 import SeccionSemestre from '../components/malla/SeccionSemestre';
 import TarjetaCurso from '../components/malla/TarjetaCurso';
@@ -19,9 +20,9 @@ export default function PaginaMalla({ p }) {
   // Abre por defecto el primer semestre con cursos pendientes.
   const [abiertos, setAbiertos] = useState(() => {
     const pendiente = plan.semestres.find((s) => s.cursos.some((c) => !aprobados.has(c.codigo)));
-    return new Set([pendiente?.numero ?? 1]);
+    return new Set([pendiente?.numero ?? plan.semestres[0].numero]);
   });
-  const [hasta, setHasta] = useState(1);
+  const [hasta, setHasta] = useState(plan.semestres[0].numero);
   const [aviso, setAviso] = useState(null);
   const alternarSem = (n) => setAbiertos((a) => { const s = new Set(a); s.has(n) ? s.delete(n) : s.add(n); return s; });
 
@@ -46,6 +47,13 @@ export default function PaginaMalla({ p }) {
   return (
     <>
       <ResumenProgreso carrera={carrera} plan={plan} res={res} cita={e.cita} onEnfasis={(enfasis) => p.cambiarProg({ enfasis })} onCita={(cita) => p.cambiar({ cita })} />
+
+      {plan.planBase && planes[plan.planBase] && (
+        <div className="mt-4 flex max-w-xl flex-wrap items-center gap-x-3 gap-y-2 rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm">
+          <p>{T.planBase.texto(planes[plan.planBase].enfasis)}</p>
+          <button onClick={() => p.cambiarProg({ enfasis: plan.planBase })} className={boton}>{T.planBase.ir(planes[plan.planBase].enfasis)}</button>
+        </div>
+      )}
 
       <section aria-labelledby="rapida-titulo" className="mt-6 max-w-xl rounded-2xl border border-neutral-200 bg-white p-4">
         <h2 id="rapida-titulo" className="text-sm font-extrabold">{B.rapidaTitulo}</h2>

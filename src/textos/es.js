@@ -8,6 +8,10 @@ export const T = {
   info: 'Acerca de ProgressU',
   enfasis: 'Énfasis',
   cambiarCarrera: 'Cambiar carrera',
+  planBase: {
+    texto: (n) => `Este plan continúa el de ${n}: sus requisitos se toman de lo que marques allí.`,
+    ir: (n) => `Ir a ${n}`,
+  },
   carreras: {
     titulo: 'Elige tu carrera',
     texto: 'Tu avance se guarda por separado para cada carrera.',

@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { carreras } from '../data';
+import { carreras, planes } from '../data';
 import { resolverPlan, calcularEstados } from '../logic/disponibilidad';
 import { resumen } from '../logic/creditos';
 import { cargar, guardar, progresoVacio } from '../logic/almacenamiento';
@@ -15,6 +15,13 @@ export default function useProgreso() {
   const cursos = useMemo(() => (plan ? resolverPlan(plan, prog.optativas ?? {}) : []), [plan, prog?.optativas]);
   const { estados, porCodigo } = useMemo(() => calcularEstados(cursos, aprobados), [cursos, aprobados]);
   const res = useMemo(() => resumen(cursos, aprobados, plan?.creditosTotales ?? 0), [cursos, aprobados, plan]);
+
+  // Un plan con planBase usa requisitos de cursos del plan base: se necesitan sus nombres para mostrarlos.
+  const base = plan?.planBase ? planes[plan.planBase] : null;
+  const todosPorCodigo = useMemo(() => {
+    const deBase = base ? Object.fromEntries(resolverPlan(base, prog.optativas ?? {}).map((c) => [c.codigo, c])) : {};
+    return { ...deBase, ...porCodigo };
+  }, [base, prog?.optativas, porCodigo]);
 
   // Datos globales: nombre, foto y cita.
   const cambiar = (patch) => setE((p) => ({ ...p, ...patch }));
@@ -41,5 +48,5 @@ export default function useProgreso() {
     carreras: p.carreras[id] ? p.carreras : { ...p.carreras, [id]: progresoVacio(carreras[id].planes[0].id) },
   }));
 
-  return { e, carrera, prog, plan, cursos, estados, porCodigo, aprobados, res, cambiar, cambiarProg, alternar, elegirOptativa, elegirCarrera, reemplazar: setE };
+  return { e, carrera, prog, plan, cursos, estados, porCodigo: todosPorCodigo, aprobados, res, cambiar, cambiarProg, alternar, elegirOptativa, elegirCarrera, reemplazar: setE };
 }

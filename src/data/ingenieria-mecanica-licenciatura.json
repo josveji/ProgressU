@@ -1,0 +1,263 @@
+{
+ "id": "ingenieria-mecanica-licenciatura",
+ "carreraId": "ingenieria-mecanica",
+ "carrera": "Ingeniería Mecánica",
+ "enfasis": "Licenciatura",
+ "etiquetaSelector": "Plan",
+ "planBase": "ingenieria-mecanica-bachillerato",
+ "resolucion": "Informe Curricular CEA-06-2025",
+ "creditosTotales": 30,
+ "creditosPorSemestre": [
+  15,
+  15
+ ],
+ "semestres": [
+  {
+   "numero": 9,
+   "cursos": [
+    {
+     "codigo": "IM-0410",
+     "nombre": "Proyecto de Ingeniería Mecánica I",
+     "creditos": 3,
+     "requisitos": [
+      "IM-0407"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "OPT-I",
+     "nombre": "Optativa I",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "mecanica"
+    },
+    {
+     "codigo": "IM-0761",
+     "nombre": "Sistemas de Tuberías",
+     "creditos": 3,
+     "requisitos": [
+      "IM-0423",
+      "IM-0305"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IM-0431",
+     "nombre": "Plantas de Vapor",
+     "creditos": 3,
+     "requisitos": [
+      "IM-0423",
+      "IM-0305"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IM-0905",
+     "nombre": "Sistemas de Aire Acondicionado",
+     "creditos": 3,
+     "requisitos": [
+      "IM-0414"
+     ],
+     "correquisitos": []
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "cursos": [
+    {
+     "codigo": "OPT-II",
+     "nombre": "Optativa II",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "mecanica"
+    },
+    {
+     "codigo": "OPT-III",
+     "nombre": "Optativa III",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "mecanica"
+    },
+    {
+     "codigo": "OPT-IV",
+     "nombre": "Optativa IV",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "mecanica"
+    },
+    {
+     "codigo": "IM-0625",
+     "nombre": "Corrosión y Preparación de Superficies",
+     "creditos": 3,
+     "requisitos": [
+      "IM-0451"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IM-0923",
+     "nombre": "Mantenimiento Industrial",
+     "creditos": 3,
+     "requisitos": [
+      "IM-0407"
+     ],
+     "correquisitos": []
+    }
+   ]
+  }
+ ],
+ "optativas": {
+  "mecanica": [
+   {
+    "codigo": "IM-0105",
+    "nombre": "Comunicación Técnica en Ingeniería Mecánica",
+    "requisitos": [
+     "IM-0413"
+    ],
+    "correquisitos": [],
+    "creditos": 2
+   },
+   {
+    "codigo": "IM-0411",
+    "nombre": "Comunicaciones en Ingeniería Mecánica",
+    "requisitos": [
+     "IM-0203"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0420",
+    "nombre": "Sistemas Industriales de Transporte",
+    "requisitos": [
+     "IM-0407"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0422",
+    "nombre": "Ingeniería Asistida por Computadora",
+    "requisitos": [
+     "IM-0407"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0453",
+    "nombre": "Acústica y Control de Ruido",
+    "requisitos": [
+     "IM-0407"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0501",
+    "nombre": "Mecatrónica",
+    "requisitos": [
+     "IM-0412"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0502",
+    "nombre": "Robótica",
+    "requisitos": [
+     "IM-0412"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0525",
+    "nombre": "Motores de Combustión Interna",
+    "requisitos": [
+     "IM-0407",
+     "IM-0305"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0627",
+    "nombre": "Utilización de Recursos Energéticos",
+    "requisitos": [
+     "IM-0305",
+     "IM-0409"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0651",
+    "nombre": "Ingeniería de Máquinas y Herramientas",
+    "requisitos": [
+     "IM-0451"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0729",
+    "nombre": "Vibraciones",
+    "requisitos": [
+     "IM-0407"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0904",
+    "nombre": "Sistemas de Refrigeración",
+    "requisitos": [
+     "IM-0414"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0915",
+    "nombre": "Electrodeposición",
+    "requisitos": [],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0917",
+    "nombre": "Soldadura",
+    "requisitos": [
+     "IM-0451"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "IM-0924",
+    "nombre": "Gestión de Mantenimiento Industrial",
+    "requisitos": [
+     "IM-0407"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   },
+   {
+    "codigo": "ND-0008",
+    "nombre": "Biomímesis, Biomateriales y Desafíos Socioecológicos",
+    "requisitos": [
+     "IM-0451"
+    ],
+    "correquisitos": [],
+    "creditos": 3
+   }
+  ]
+ },
+ "hitos": []
+}
