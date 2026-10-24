@@ -17,11 +17,11 @@ export default function useProgreso() {
   const res = useMemo(() => resumen(cursos, aprobados, plan?.creditosTotales ?? 0), [cursos, aprobados, plan]);
 
   // Un plan con planBase usa requisitos de cursos del plan base: se necesitan sus nombres para mostrarlos.
-  const base = plan?.planBase ? planes[plan.planBase] : null;
   const todosPorCodigo = useMemo(() => {
-    const deBase = base ? Object.fromEntries(resolverPlan(base, prog.optativas ?? {}).map((c) => [c.codigo, c])) : {};
-    return { ...deBase, ...porCodigo };
-  }, [base, prog?.optativas, porCodigo]);
+    const deBases = [].concat(plan?.planBase ?? []).map((id) => planes[id]).filter(Boolean)
+      .flatMap((b) => resolverPlan(b, prog.optativas ?? {}).map((c) => [c.codigo, c]));
+    return { ...Object.fromEntries(deBases), ...porCodigo };
+  }, [plan, prog?.optativas, porCodigo]);
 
   // Datos globales: nombre, foto y cita.
   const cambiar = (patch) => setE((p) => ({ ...p, ...patch }));

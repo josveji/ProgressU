@@ -16,10 +16,12 @@ for (const [id, p] of Object.entries(leidos)) {
   ['carreraId', 'carrera', 'enfasis'].forEach((c) => { if (!p[c]) err(`${id}: falta el campo "${c}"`); });
   if (p.semestres.length > 12) err(`${id}: máximo 12 semestres`);
 
-  const base = p.planBase ? leidos[p.planBase] : null;
-  if (p.planBase && !base) err(`${id}: planBase "${p.planBase}" no existe`);
-  if (base && base.carreraId !== p.carreraId) err(`${id}: planBase debe ser de la misma carrera`);
-  const externos = new Set(base ? base.semestres.flatMap((s) => s.cursos.map((c) => c.codigo)) : []);
+  const bases = [].concat(p.planBase ?? []).map((b) => {
+    if (!leidos[b]) err(`${id}: planBase "${b}" no existe`);
+    else if (leidos[b].carreraId !== p.carreraId) err(`${id}: planBase "${b}" debe ser de la misma carrera`);
+    return leidos[b];
+  }).filter(Boolean);
+  const externos = new Set(bases.flatMap((b) => b.semestres.flatMap((s) => s.cursos.map((c) => c.codigo))));
 
   const por = new Map();
   p.semestres.forEach((s) => s.cursos.forEach((c) => {

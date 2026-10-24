@@ -9,7 +9,9 @@ export const T = {
   enfasis: 'Énfasis',
   cambiarCarrera: 'Cambiar carrera',
   planBase: {
-    texto: (n) => `Este plan continúa el de ${n}: sus requisitos se toman de lo que marques allí.`,
+    texto: (n) => (n.length === 1
+      ? `Este plan continúa el de ${n[0]}: sus requisitos se toman de lo que marques allí.`
+      : `Este plan continúa el Bachillerato (${n.join(', ')}): sus requisitos se toman de lo que marques en cualquiera de ellos.`),
     ir: (n) => `Ir a ${n}`,
   },
   carreras: {

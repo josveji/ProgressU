@@ -16,6 +16,7 @@ const boton = 'rounded-lg border border-neutral-300 bg-white px-3 py-1.5 text-sm
 export default function PaginaMalla({ p }) {
   const { e, prog, carrera, plan, cursos, estados, porCodigo, aprobados, res } = p;
   const B = T.bloques;
+  const bases = [].concat(plan.planBase ?? []).map((id) => planes[id]).filter(Boolean);
   const archivo = useRef();
   // Abre por defecto el primer semestre con cursos pendientes.
   const [abiertos, setAbiertos] = useState(() => {
@@ -48,10 +49,10 @@ export default function PaginaMalla({ p }) {
     <>
       <ResumenProgreso carrera={carrera} plan={plan} res={res} cita={e.cita} onEnfasis={(enfasis) => p.cambiarProg({ enfasis })} onCita={(cita) => p.cambiar({ cita })} />
 
-      {plan.planBase && planes[plan.planBase] && (
+      {bases.length > 0 && (
         <div className="mt-4 flex max-w-xl flex-wrap items-center gap-x-3 gap-y-2 rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm">
-          <p>{T.planBase.texto(planes[plan.planBase].enfasis)}</p>
-          <button onClick={() => p.cambiarProg({ enfasis: plan.planBase })} className={boton}>{T.planBase.ir(planes[plan.planBase].enfasis)}</button>
+          <p>{T.planBase.texto(bases.map((b) => b.enfasis))}</p>
+          {bases.map((b) => <button key={b.id} onClick={() => p.cambiarProg({ enfasis: b.id })} className={boton}>{T.planBase.ir(b.enfasis)}</button>)}
         </div>
       )}
 

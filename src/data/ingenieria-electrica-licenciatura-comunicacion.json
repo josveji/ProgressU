@@ -1,0 +1,243 @@
+{
+ "id": "ingenieria-electrica-licenciatura-comunicacion",
+ "carreraId": "ingenieria-electrica",
+ "carrera": "Lic. en Ingeniería Eléctrica",
+ "carreraNombre": "Ingeniería Eléctrica",
+ "enfasis": "Licenciatura – Sistemas de Comunicación",
+ "etiquetaSelector": "Plan o énfasis",
+ "orden": 10,
+ "planBase": [
+  "computadoras-y-redes",
+  "electronica-y-telecomunicaciones",
+  "sistemas-de-energia"
+ ],
+ "resolucion": "VD-13502-2025, 06 de noviembre de 2025",
+ "creditosTotales": 30,
+ "creditosPorSemestre": [
+  18,
+  12
+ ],
+ "semestres": [
+  {
+   "numero": 9,
+   "cursos": [
+    {
+     "codigo": "IE-0579",
+     "nombre": "Administración de sistemas",
+     "creditos": 4,
+     "requisitos": [
+      "IE-0479"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0613",
+     "nombre": "Electrónica industrial",
+     "creditos": 4,
+     "requisitos": [
+      "IE-0413",
+      "IE-0315"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0599",
+     "nombre": "Anteproyecto de TFG",
+     "creditos": 4,
+     "requisitos": [
+      "IE-0499"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "OPT-L1",
+     "nombre": "Optativa I",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "comunicacion"
+    },
+    {
+     "codigo": "OPT-L2",
+     "nombre": "Optativa II",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "comunicacion"
+    }
+   ]
+  },
+  {
+   "numero": 10,
+   "cursos": [
+    {
+     "codigo": "IE-0679",
+     "nombre": "Ciencia de datos para la estimación y pronóstico de eventos",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0405",
+      "IE-0579"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "IE-0541",
+     "nombre": "Seguridad ocupacional",
+     "creditos": 3,
+     "requisitos": [
+      "IE-0501"
+     ],
+     "correquisitos": []
+    },
+    {
+     "codigo": "OPT-L3",
+     "nombre": "Optativa III",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "comunicacion"
+    },
+    {
+     "codigo": "OPT-L4",
+     "nombre": "Optativa IV",
+     "creditos": 3,
+     "requisitos": [],
+     "correquisitos": [],
+     "optativa": "comunicacion"
+    },
+    {
+     "codigo": "TFG",
+     "nombre": "Trabajo Final de Graduación",
+     "creditos": 0,
+     "requisitos": [],
+     "correquisitos": []
+    }
+   ]
+  }
+ ],
+ "optativas": {
+  "comunicacion": [
+   {
+    "codigo": "IE-0509",
+    "nombre": "Sistemas no lineales",
+    "requisitos": [
+     "IE-0431"
+    ]
+   },
+   {
+    "codigo": "IE-0528",
+    "nombre": "Laboratorio de transmisión de datos",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-0529",
+    "nombre": "Sistemas móviles en comunicaciones",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-0530",
+    "nombre": "Laboratorio de telecomunicaciones",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-0573",
+    "nombre": "Diseño de sistemas de señales en edificaciones",
+    "requisitos": [
+     "IE-0471"
+    ]
+   },
+   {
+    "codigo": "IE-0627",
+    "nombre": "Conmutación telefónica",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-0629",
+    "nombre": "Sistemas de comunicación",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-0633",
+    "nombre": "Automatización industrial",
+    "requisitos": [
+     "IE-0323",
+     "IE-0431"
+    ]
+   },
+   {
+    "codigo": "IE-0727",
+    "nombre": "Ingeniería de radio",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-0729",
+    "nombre": "Redes telefónicas",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-0731",
+    "nombre": "Sistemas en tiempo discreto",
+    "requisitos": [
+     "IE-0431"
+    ]
+   },
+   {
+    "codigo": "IE-0827",
+    "nombre": "Sistemas de transmisión en telecomunicaciones",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-0829",
+    "nombre": "Teoría de tráfico",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-1103",
+    "nombre": "Temas especiales II en ingeniería",
+    "requisitos": [
+     "IE-0499"
+    ]
+   },
+   {
+    "codigo": "IE-1115",
+    "nombre": "Temas especiales II en telecomunicaciones",
+    "requisitos": [
+     "IE-0527"
+    ]
+   },
+   {
+    "codigo": "IE-1116",
+    "nombre": "Temas especiales II en electrónica",
+    "requisitos": [
+     "IE-0413"
+    ]
+   },
+   {
+    "codigo": "IE-1119",
+    "nombre": "Temas especiales II en sistemas digitales",
+    "requisitos": [
+     "IE-0321"
+    ]
+   }
+  ]
+ },
+ "hitos": []
+}

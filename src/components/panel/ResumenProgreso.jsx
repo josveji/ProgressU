@@ -7,7 +7,7 @@ export default function ResumenProgreso({ carrera, plan, res, cita, onEnfasis, o
     <section className="space-y-3">
       <div>
         <h1 className="text-2xl font-extrabold tracking-tight sm:text-3xl">{plan.carrera}</h1>
-        <div className="mt-2"><SelectorEnfasis planes={carrera.planes} valor={plan.id} etiqueta={plan.etiquetaSelector} onChange={onEnfasis} /></div>
+        <div className="mt-2"><SelectorEnfasis planes={carrera.planes} valor={plan.id} etiqueta={carrera.planes.find((x) => x.etiquetaSelector)?.etiquetaSelector} onChange={onEnfasis} /></div>
       </div>
       <div className="flex max-w-xl items-center gap-3">
         <div role="progressbar" aria-valuenow={res.porcentaje} aria-valuemin={0} aria-valuemax={100} aria-label="Avance general" className="h-4 flex-1 overflow-hidden rounded-full bg-bloqueado/70">
