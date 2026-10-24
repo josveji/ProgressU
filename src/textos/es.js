@@ -63,7 +63,7 @@ export const T = {
       'Tu progreso se guarda en este navegador. No se envía a ningún servidor; puedes exportarlo como respaldo.',
     ],
     aviso: 'Proyecto independiente, no oficial. Confirma siempre tu plan con tu escuela.',
-    creado: 'Proyecto creado por Josué Jiménez R.',
+    creado: 'Proyecto creado por Josué María Jiménez Ramírez',
     linkedin: 'LinkedIn',
     boton: 'Empezar',
   },
@@ -71,4 +71,4 @@ export const T = {
 export const LINKEDIN = 'https://cr.linkedin.com/in/josvejr';
 export const ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
 export const GITHUB = 'https://github.com/josveji';
-export const PIE = { autor: 'Josué Jiménez R.', derechos: 'Todos los derechos reservados.', linkedin: 'LinkedIn', github: 'GitHub' };
+export const PIE = { autor: 'Josué María Jiménez Ramírez', derechos: 'Todos los derechos reservados.', linkedin: 'LinkedIn', github: 'GitHub' };
