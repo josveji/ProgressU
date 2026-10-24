@@ -1,7 +1,7 @@
 import fs from 'fs';
 const dir = new URL('../src/data/', import.meta.url);
 let errores = 0;
-const err = (m) => { console.error('✗', m); errores++; };
+const err = (m) => { console.log('✗', m); errores++; };
 
 // Primero se leen todos los planes, porque un plan puede apoyarse en otro (planBase).
 const leidos = {};
@@ -23,15 +23,29 @@ for (const [id, p] of Object.entries(leidos)) {
   }).filter(Boolean);
   const externos = new Set(bases.flatMap((b) => b.semestres.flatMap((s) => s.cursos.map((c) => c.codigo))));
 
+  // Recolectar también todos los códigos de los cursos que están dentro de las optativas
+  const optativosSet = new Set();
+  Object.values(p.optativas ?? {}).forEach((ops) => ops.forEach((o) => {
+    if (o.codigo) optativosSet.add(o.codigo);
+  }));
+
   const por = new Map();
   p.semestres.forEach((s) => s.cursos.forEach((c) => {
     if (por.has(c.codigo)) err(`${id}: código duplicado ${c.codigo}`);
     por.set(c.codigo, c);
     if (c.optativa && !p.optativas?.[c.optativa]) err(`${id}: ${c.codigo} usa la lista de optativas inexistente "${c.optativa}"`);
   }));
-  const existe = (cod, de) => { if (!por.has(cod) && !externos.has(cod)) err(`${id}: ${de} referencia a un curso inexistente (${cod})`); };
+  
+  // Modificación: Permitir que un requisito exista tanto en la malla regular (por/externos) como en el catálogo de optativas (optativosSet)
+  const existe = (cod, de) => { 
+    if (!por.has(cod) && !externos.has(cod) && !optativosSet.has(cod)) {
+      err(`${id}: ${de} referencia a un curso inexistente (${cod})`); 
+    }
+  };
+
   por.forEach((c) => [...c.requisitos, ...c.correquisitos].forEach((r) => existe(r, c.codigo)));
   Object.values(p.optativas ?? {}).forEach((ops) => ops.forEach((o) => o.requisitos.forEach((r) => existe(r, `optativa ${o.codigo}`))));
+  
   (p.hitos ?? []).forEach((h) => {
     if (!p.semestres.some((s) => s.numero === h.despuesDeSemestre)) err(`${id}: el hito "${h.id}" necesita despuesDeSemestre con el número de un semestre del plan`);
     if (h.creditosMinimos != null && typeof h.creditosMinimos !== 'number') err(`${id}: el hito "${h.id}" tiene creditosMinimos inválido`);
