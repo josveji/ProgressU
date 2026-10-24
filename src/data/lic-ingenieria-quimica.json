@@ -1,0 +1,737 @@
+{
+  "id": "lic-en-ingenieria-quimica-plan-1",
+  "carreraId": "ingenieria-quimica",
+  "carrera": "Lic. en Ingeniería Química",
+  "carreraNombre": "Ingeniería Química",
+  "enfasis": "Bloque Común",
+  "etiquetaSelector": "Plan",
+  "resolucion": "Resolución 7289-2003",
+  "creditosTotales": 174,
+  "creditosPorSemestre": [19, 18, 19, 20, 19, 18, 17, 16, 16, 12, 0, 0],
+  "semestres": [
+    {
+      "numero": 1,
+      "cursos": [
+        {
+          "codigo": "EG-",
+          "nombre": "Curso de Arte",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-I",
+          "nombre": "Curso Integrado de Humanidades I",
+          "creditos": 6,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "LM1030",
+          "nombre": "Estrategias de Lectura en Inglés I (para otros planes)",
+          "creditos": 4,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA0001",
+          "nombre": "Precálculo",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1001",
+          "nombre": "Cálculo I",
+          "creditos": 3,
+          "requisitos": ["MA0001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "QU0100",
+          "nombre": "Química General I",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": ["QU0101"]
+        },
+        {
+          "codigo": "QU0101",
+          "nombre": "Laboratorio de Química General I",
+          "creditos": 1,
+          "requisitos": [],
+          "correquisitos": ["QU0100"]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "cursos": [
+        {
+          "codigo": "EF-",
+          "nombre": "Actividad Deportiva",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-II",
+          "nombre": "Curso Integrado de Humanidades II",
+          "creditos": 6,
+          "requisitos": ["EG-I"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "FS0210",
+          "nombre": "Física General I",
+          "creditos": 3,
+          "requisitos": ["MA1001"],
+          "correquisitos": ["FS0211"]
+        },
+        {
+          "codigo": "FS0211",
+          "nombre": "Laboratorio de Física General I",
+          "creditos": 1,
+          "requisitos": ["MA1001"],
+          "correquisitos": ["FS0210"]
+        },
+        {
+          "codigo": "MA1002",
+          "nombre": "Cálculo II",
+          "creditos": 4,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "QU0102",
+          "nombre": "Química General II",
+          "creditos": 3,
+          "requisitos": ["QU0100", "QU0101"],
+          "correquisitos": ["QU0103"]
+        },
+        {
+          "codigo": "QU0103",
+          "nombre": "Laboratorio de Química General II",
+          "creditos": 1,
+          "requisitos": ["QU0100", "QU0101"],
+          "correquisitos": ["QU0102"]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "cursos": [
+        {
+          "codigo": "FS0310",
+          "nombre": "Física General II",
+          "creditos": 3,
+          "requisitos": ["FS0210", "FS0211", "MA1002"],
+          "correquisitos": ["FS0311"]
+        },
+        {
+          "codigo": "FS0311",
+          "nombre": "Laboratorio de Física General II",
+          "creditos": 1,
+          "requisitos": ["FS0210", "FS0211", "MA1002"],
+          "correquisitos": ["FS0310"]
+        },
+        {
+          "codigo": "IQ0200",
+          "nombre": "Análisis Gráfico para Ingeniería Química",
+          "creditos": 3,
+          "requisitos": ["FS0210", "MA1002", "QU0102"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1003",
+          "nombre": "Cálculo III",
+          "creditos": 4,
+          "requisitos": ["MA1002"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1004",
+          "nombre": "Álgebra Lineal",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "QU0200",
+          "nombre": "Química Analítica Cuantitativa I",
+          "creditos": 3,
+          "requisitos": ["QU0102", "QU0103"],
+          "correquisitos": ["QU0201"]
+        },
+        {
+          "codigo": "QU0201",
+          "nombre": "Laboratorio de Química Analítica Cuantitativa I",
+          "creditos": 2,
+          "requisitos": ["QU0102", "QU0103"],
+          "correquisitos": ["QU0200"]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "cursos": [
+        {
+          "codigo": "CI0202",
+          "nombre": "Principios de Informática",
+          "creditos": 4,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "FS0410",
+          "nombre": "Física General III",
+          "creditos": 3,
+          "requisitos": ["FS0310", "FS0311", "MA1003"],
+          "correquisitos": ["FS0411"]
+        },
+        {
+          "codigo": "FS0411",
+          "nombre": "Laboratorio de Física General III",
+          "creditos": 1,
+          "requisitos": ["FS0310", "FS0311", "MA1003"],
+          "correquisitos": ["FS0410"]
+        },
+        {
+          "codigo": "IQ0332",
+          "nombre": "Análisis de Procesos I",
+          "creditos": 4,
+          "requisitos": ["FS0310", "IQ0200"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1005",
+          "nombre": "Ecuaciones Diferenciales",
+          "creditos": 4,
+          "requisitos": ["MA1002", "MA1004"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "QU0260",
+          "nombre": "Físico Química para Ingeniería Química",
+          "creditos": 4,
+          "requisitos": ["FS0310", "FS0311", "MA1002", "QU0102", "QU0103"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "cursos": [
+        {
+          "codigo": "IQ0312",
+          "nombre": "Mecánica I",
+          "creditos": 4,
+          "requisitos": ["FS0210", "FS0211", "MA1003", "MA1004"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0333",
+          "nombre": "Análisis de Procesos II",
+          "creditos": 3,
+          "requisitos": ["CI0202", "IQ0332", "MA1003", "MA1005"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0334",
+          "nombre": "Termodinámica I",
+          "creditos": 3,
+          "requisitos": ["IQ0332", "MA1005", "QU0260"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "QU0212",
+          "nombre": "Química Orgánica General I",
+          "creditos": 4,
+          "requisitos": ["QU0102", "QU0103"],
+          "correquisitos": ["QU0213"]
+        },
+        {
+          "codigo": "QU0213",
+          "nombre": "Laboratorio de Química Orgánica General I",
+          "creditos": 1,
+          "requisitos": ["QU0102", "QU0103"],
+          "correquisitos": ["QU0212"]
+        },
+        {
+          "codigo": "XS0217",
+          "nombre": "Probabilidades e Inferencia Estadística",
+          "creditos": 4,
+          "requisitos": ["MA1004", "MA1005"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "cursos": [
+        {
+          "codigo": "IE0303",
+          "nombre": "Electrotecnia I",
+          "creditos": 3,
+          "requisitos": ["FS0310", "FS0311", "MA1003"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0313",
+          "nombre": "Fenómenos de Transferencia",
+          "creditos": 4,
+          "requisitos": ["IQ0333", "IQ0334"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0331",
+          "nombre": "Medición y Tratamiento de Datos Experimentales",
+          "creditos": 3,
+          "requisitos": ["FS0410", "IQ0332", "XS0217"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0335",
+          "nombre": "Termodinámica II",
+          "creditos": 3,
+          "requisitos": ["CI0202", "IQ0334", "MA1003", "QU0212"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "QU0214",
+          "nombre": "Química Orgánica General II",
+          "creditos": 4,
+          "requisitos": ["QU0212", "QU0213"],
+          "correquisitos": ["QU0215"]
+        },
+        {
+          "codigo": "QU0215",
+          "nombre": "Laboratorio de Química Orgánica General II",
+          "creditos": 1,
+          "requisitos": ["QU0212", "QU0213"],
+          "correquisitos": ["QU0214"]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "cursos": [
+        {
+          "codigo": "IQ0415",
+          "nombre": "Ingeniería de los Materiales",
+          "creditos": 3,
+          "requisitos": ["IQ0312", "IQ0335"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0423",
+          "nombre": "Operaciones de Transferencia de Fluidos y Calor",
+          "creditos": 3,
+          "requisitos": ["IQ0313"],
+          "correquisitos": ["IQ0432"]
+        },
+        {
+          "codigo": "IQ0432",
+          "nombre": "Laboratorio de Operaciones de Transferencia de Fluidos y Calor",
+          "creditos": 3,
+          "requisitos": ["IQ0313"],
+          "correquisitos": ["IQ0423"]
+        },
+        {
+          "codigo": "IQ0451",
+          "nombre": "Planeamiento de la Producción",
+          "creditos": 3,
+          "requisitos": ["XS0217"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "OPT413-1",
+          "nombre": "Bloque Optativo 1",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT413"
+        },
+        {
+          "codigo": "SR-I",
+          "nombre": "Seminario de Realidad Nacional I",
+          "creditos": 2,
+          "requisitos": ["EG-II"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "cursos": [
+        {
+          "codigo": "IQ0416",
+          "nombre": "Cinética y Reactores Químicos",
+          "creditos": 3,
+          "requisitos": ["IQ0415", "IQ0423", "QU0214"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0424",
+          "nombre": "Operaciones por Separación de Fases",
+          "creditos": 3,
+          "requisitos": ["IQ0335", "IQ0423"],
+          "correquisitos": ["IQ0433"]
+        },
+        {
+          "codigo": "IQ0433",
+          "nombre": "Laboratorio de Operaciones por Separación de Fases",
+          "creditos": 2,
+          "requisitos": ["IQ0335"],
+          "correquisitos": ["IQ0424"]
+        },
+        {
+          "codigo": "IQ0452",
+          "nombre": "Control de la Producción",
+          "creditos": 3,
+          "requisitos": ["IQ0451"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "RP-1",
+          "nombre": "Repertorio",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "SR-II",
+          "nombre": "Seminario de Realidad Nacional II",
+          "creditos": 2,
+          "requisitos": ["SR-I"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "cursos": [
+        {
+          "codigo": "IQ0517",
+          "nombre": "Control e Instrumentación de Procesos",
+          "creditos": 3,
+          "requisitos": ["IE0303", "IQ0416", "IQ0424"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0525",
+          "nombre": "Operaciones de Separación por Métodos Difusionales",
+          "creditos": 3,
+          "requisitos": ["IQ0424"],
+          "correquisitos": ["IQ0534"]
+        },
+        {
+          "codigo": "IQ0534",
+          "nombre": "Laboratorio de Operaciones de Separación por Métodos Difusionales",
+          "creditos": 2,
+          "requisitos": ["IQ0424"],
+          "correquisitos": ["IQ0525"]
+        },
+        {
+          "codigo": "IQ0553",
+          "nombre": "Evaluación de Proyectos",
+          "creditos": 3,
+          "requisitos": ["IQ0424", "IQ0452"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0590",
+          "nombre": "Seminario para Proyectos de Graduación",
+          "creditos": 2,
+          "requisitos": ["IQ0424", "IQ0452"],
+          "correquisitos": ["IQ0553"]
+        },
+        {
+          "codigo": "OPT413-2",
+          "nombre": "Bloque Optativo 2",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT413"
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "cursos": [
+        {
+          "codigo": "IQ0526",
+          "nombre": "Procesos y Operaciones Integradas",
+          "creditos": 3,
+          "requisitos": ["IQ0525", "IQ0553"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0551",
+          "nombre": "Diseño de Procesos Químicos",
+          "creditos": 3,
+          "requisitos": ["IQ0416", "IQ0525", "IQ0553"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ0556",
+          "nombre": "Principios de Administración Industrial",
+          "creditos": 3,
+          "requisitos": ["IQ0525", "IQ0553"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "OPT413-3",
+          "nombre": "Bloque Optativo 3",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT413"
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "cursos": []
+    },
+    {
+      "numero": 12,
+      "cursos": []
+    }
+  ],
+  "optativas": {
+    "OPT413": [
+      {
+        "codigo": "IQ0330",
+        "nombre": "Ingeniería de Procesos I",
+        "creditos": 3,
+        "requisitos": ["IQ0335", "QU0214"]
+      },
+      {
+        "codigo": "IQ0437",
+        "nombre": "Introducción a los Fluidos de Perforación",
+        "creditos": 3,
+        "requisitos": ["IQ0423", "IQ0432"]
+      },
+      {
+        "codigo": "IQ0500",
+        "nombre": "Ingeniería Petrolera",
+        "creditos": 3,
+        "requisitos": ["IQ0423", "IQ0432"]
+      },
+      {
+        "codigo": "IQ0503",
+        "nombre": "Ingeniería de Procesos Alimenticios",
+        "creditos": 3,
+        "requisitos": ["IQ0335", "IQ0423"]
+      },
+      {
+        "codigo": "IQ0552",
+        "nombre": "Corrosión",
+        "creditos": 3,
+        "requisitos": ["IQ0415"]
+      },
+      {
+        "codigo": "IQ0559",
+        "nombre": "Diseño de Procesos Térmicos en la Industria Alimentaria",
+        "creditos": 3,
+        "requisitos": ["IQ0313"]
+      },
+      {
+        "codigo": "IQ0569",
+        "nombre": "Diseño de Procesos y Equipo en Alimentos",
+        "creditos": 3,
+        "requisitos": ["IQ0423"]
+      },
+      {
+        "codigo": "IQ0620",
+        "nombre": "Estadística Aplicada a la Calidad",
+        "creditos": 3,
+        "requisitos": ["IQ0331"]
+      },
+      {
+        "codigo": "IQ0621",
+        "nombre": "Gestión de la Calidad",
+        "creditos": 3,
+        "requisitos": []
+      },
+      {
+        "codigo": "IQ0622",
+        "nombre": "Diseño Estadístico de Experimentos",
+        "creditos": 3,
+        "requisitos": ["IQ0331"]
+      },
+      {
+        "codigo": "IQ0630",
+        "nombre": "Ingeniería Azucarera",
+        "creditos": 3,
+        "requisitos": ["IQ0423", "QU0214"]
+      },
+      {
+        "codigo": "IQ0631",
+        "nombre": "Ingeniería Azucarera II",
+        "creditos": 3,
+        "requisitos": ["IQ0630"]
+      },
+      {
+        "codigo": "IQ0640",
+        "nombre": "Tratamiento de Desechos",
+        "creditos": 3,
+        "requisitos": ["IQ0423", "QU0214"]
+      },
+      {
+        "codigo": "IQ0642",
+        "nombre": "Bioingeniería",
+        "creditos": 3,
+        "requisitos": ["IQ0423", "QU0214"]
+      },
+      {
+        "codigo": "IQ0643",
+        "nombre": "Bioingeniería II",
+        "creditos": 3,
+        "requisitos": ["IQ0642"]
+      },
+      {
+        "codigo": "IQ0655",
+        "nombre": "Cerámica Industrial",
+        "creditos": 3,
+        "requisitos": ["IQ0415"]
+      },
+      {
+        "codigo": "IQ0660",
+        "nombre": "Seguridad e Higiene Industrial",
+        "creditos": 3,
+        "requisitos": ["IQ0423"]
+      },
+      {
+        "codigo": "IQ0661",
+        "nombre": "Contaminación Industrial del Aire",
+        "creditos": 3,
+        "requisitos": ["IQ0335", "IQ0423", "QU0214"]
+      },
+      {
+        "codigo": "IQ0664",
+        "nombre": "Seguridad e Higiene Industrial II",
+        "creditos": 3,
+        "requisitos": ["IQ0660"]
+      },
+      {
+        "codigo": "IQ0670",
+        "nombre": "Control Automático",
+        "creditos": 3,
+        "requisitos": ["IQ0517"]
+      },
+      {
+        "codigo": "IQ0671",
+        "nombre": "Impacto Ambiental",
+        "creditos": 3,
+        "requisitos": ["IQ0335", "IQ0423", "QU0214"]
+      },
+      {
+        "codigo": "IQ0672",
+        "nombre": "Gestión Integral de los Desechos Sólidos: Ordinarios y Especiales",
+        "creditos": 3,
+        "requisitos": ["IQ0423", "QU0214"]
+      },
+      {
+        "codigo": "IQ0680",
+        "nombre": "Ingeniería Textil",
+        "creditos": 3,
+        "requisitos": ["IQ0335", "QU0214"]
+      },
+      {
+        "codigo": "IQ0690",
+        "nombre": "Instalaciones Frigoríficas",
+        "creditos": 3,
+        "requisitos": ["IQ0335", "IQ0423"]
+      },
+      {
+        "codigo": "IQ0700",
+        "nombre": "Metalurgia Extractiva I",
+        "creditos": 3,
+        "requisitos": ["IQ0415"]
+      },
+      {
+        "codigo": "IQ0701",
+        "nombre": "Metalurgia Extractiva II",
+        "creditos": 3,
+        "requisitos": ["IQ0700"]
+      },
+      {
+        "codigo": "IQ0710",
+        "nombre": "Métodos y Sistemas de Investigación",
+        "creditos": 3,
+        "requisitos": ["IQ0331"]
+      },
+      {
+        "codigo": "IQ2102",
+        "nombre": "Métodos Cuantitativos para la Toma de Decisiones I",
+        "creditos": 3,
+        "requisitos": ["IQ0313", "IQ0451", "IQ0452"]
+      },
+      {
+        "codigo": "IQ2103",
+        "nombre": "Métodos Cuantitativos para la Toma de Decisiones II",
+        "creditos": 3,
+        "requisitos": ["IQ2102"]
+      },
+      {
+        "codigo": "IQ0499",
+        "nombre": "Tecnología del Asfalto",
+        "creditos": 3,
+        "requisitos": ["IQ0331", "QU0214"]
+      },
+      {
+        "codigo": "IQ0504",
+        "nombre": "Fuentes Renovables de Energía",
+        "creditos": 3,
+        "requisitos": ["IQ0334"]
+      },
+      {
+        "codigo": "IQ0570",
+        "nombre": "Tecnología de Polímeros",
+        "creditos": 3,
+        "requisitos": ["IQ0415", "QU0212"]
+      },
+      {
+        "codigo": "IQ0579",
+        "nombre": "Tecnología de Polímeros II",
+        "creditos": 3,
+        "requisitos": ["IQ0570", "QU0212"]
+      }
+    ]
+  },
+  "hitos": [
+    {
+      "id": "tcu",
+      "nombre": "Trabajo Comunitario Universitario (TCU)",
+      "despuesDeSemestre": 5,
+      "creditosMinimos": null,
+      "requisitos": [],
+      "detalle": "El y la estudiante deben aprobar 300 horas de Trabajo Comunitario Universitario (TCU)."
+    },
+    {
+      "id": "modalidad-graduacion-investigacion",
+      "nombre": "Investigación Dirigida",
+      "despuesDeSemestre": 9,
+      "creditosMinimos": null,
+      "requisitos": ["IQ0590"],
+      "detalle": "Modalidad de graduación que comprende los cursos IQ9500 (Investigación Dirigida I), IQ9501 (Investigación Dirigida II) e IQ9502 (Investigación Dirigida III)."
+    },
+    {
+      "id": "modalidad-graduacion-practica",
+      "nombre": "Práctica Dirigida",
+      "despuesDeSemestre": 9,
+      "creditosMinimos": null,
+      "requisitos": ["IQ0590"],
+      "detalle": "Modalidad de graduación que comprende los cursos IQ9700 (Práctica Dirigida I), IQ9701 (Práctica Dirigida II) e IQ9702 (Práctica Dirigida III)."
+    },
+    {
+      "id": "modalidad-graduacion-proyecto",
+      "nombre": "Proyecto de Graduación",
+      "despuesDeSemestre": 9,
+      "creditosMinimos": null,
+      "requisitos": ["IQ0590"],
+      "detalle": "Modalidad de graduación que comprende los cursos IQ9800 (Proyecto de Graduación I), IQ9801 (Proyecto de Graduación II) e IQ9802 (Proyecto de Graduación III)."
+    }
+  ]
+}
