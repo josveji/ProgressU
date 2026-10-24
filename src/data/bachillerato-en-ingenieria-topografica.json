@@ -1,0 +1,406 @@
+{
+  "id": "bachillerato-en-ingenieria-topografica",
+  "carreraId": "ingenieria-topografica",
+  "carrera": "Bach. en Ingeniería Topográfica",
+  "carreraNombre": "Ingeniería Topográfica",
+  "enfasis": "Bachillerato",
+  "etiquetaSelector": "Plan",
+  "resolucion": "Plan de 2003",
+  "creditosTotales": 138,
+  "creditosPorSemestre": [17, 18, 18, 17, 17, 18, 17, 16],
+  "semestres": [
+    {
+      "numero": 1,
+      "cursos": [
+        {
+          "codigo": "EF-",
+          "nombre": "Actividad Deportiva",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-I",
+          "nombre": "Curso Integrado de Humanidades I",
+          "creditos": 6,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "GF0215",
+          "nombre": "Cartografía Básica",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT1000",
+          "nombre": "Introducción a la Ingeniería Topográfica",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT1002",
+          "nombre": "Dibujo Básico para Topografía",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": ["MA1110"]
+        },
+        {
+          "codigo": "MA0001",
+          "nombre": "Precálculo",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1110",
+          "nombre": "Trigonometría Plana y Esférica",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "cursos": [
+        {
+          "codigo": "EG-",
+          "nombre": "Curso de Arte",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-II",
+          "nombre": "Curso Integrado de Humanidades II",
+          "creditos": 6,
+          "requisitos": ["EG-I"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT1003",
+          "nombre": "Principios de Topografía",
+          "creditos": 3,
+          "requisitos": ["GF0215", "IT1002", "MA1110"],
+          "correquisitos": ["IT1004"]
+        },
+        {
+          "codigo": "IT1004",
+          "nombre": "Práctica de Principios de Topografía",
+          "creditos": 2,
+          "requisitos": ["GF0215", "IT1002", "MA1110"],
+          "correquisitos": ["IT1003"]
+        },
+        {
+          "codigo": "IT2005",
+          "nombre": "Legislación para Topografía",
+          "creditos": 2,
+          "requisitos": ["IT1000"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1001",
+          "nombre": "Cálculo I",
+          "creditos": 3,
+          "requisitos": ["MA0001"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "cursos": [
+        {
+          "codigo": "FS0210",
+          "nombre": "Física General I",
+          "creditos": 3,
+          "requisitos": ["MA1001"],
+          "correquisitos": ["FS0211"]
+        },
+        {
+          "codigo": "FS0211",
+          "nombre": "Laboratorio de Física General I",
+          "creditos": 1,
+          "requisitos": ["MA1001"],
+          "correquisitos": ["FS0210"]
+        },
+        {
+          "codigo": "G0114",
+          "nombre": "Geología para Topografos",
+          "creditos": 3,
+          "requisitos": ["IT1003", "IT1004"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT2002",
+          "nombre": "Dibujo Topográfico",
+          "creditos": 3,
+          "requisitos": ["IT1003"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT2003",
+          "nombre": "Ajustes e Instrumentos Topográficos",
+          "creditos": 3,
+          "requisitos": ["IT1003", "MA1001"],
+          "correquisitos": ["IT2002"]
+        },
+        {
+          "codigo": "IT2004",
+          "nombre": "Práctica de Ajustes e Instrumentos Topogr.",
+          "creditos": 2,
+          "requisitos": ["IT1003", "IT1004", "MA1001"],
+          "correquisitos": ["IT2003"]
+        },
+        {
+          "codigo": "RP-1",
+          "nombre": "Repertorio",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "cursos": [
+        {
+          "codigo": "IT3005",
+          "nombre": "Levantamiento Topográfico de Vías",
+          "creditos": 3,
+          "requisitos": ["FS0210", "IT2003"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT3006",
+          "nombre": "Práctica de Levantamiento Topográfico de Vías",
+          "creditos": 2,
+          "requisitos": ["FS0210", "FS0211", "IT2003", "IT2004"],
+          "correquisitos": ["IT3005"]
+        },
+        {
+          "codigo": "IT4002",
+          "nombre": "Principios de Geodesia",
+          "creditos": 3,
+          "requisitos": ["IT2003"],
+          "correquisitos": ["IT3005"]
+        },
+        {
+          "codigo": "IT4004",
+          "nombre": "Levantamiento Catastral",
+          "creditos": 3,
+          "requisitos": ["IT2003"],
+          "correquisitos": ["IT4002"]
+        },
+        {
+          "codigo": "MA1002",
+          "nombre": "Cálculo II",
+          "creditos": 4,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "SR-I",
+          "nombre": "Seminario de Realidad Nacional I",
+          "creditos": 2,
+          "requisitos": ["EG-II"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "cursos": [
+        {
+          "codigo": "FS0310",
+          "nombre": "Física General II",
+          "creditos": 3,
+          "requisitos": ["FS0210", "FS0211", "MA1002"],
+          "correquisitos": ["FS0311"]
+        },
+        {
+          "codigo": "FS0311",
+          "nombre": "Laboratorio de Física General II",
+          "creditos": 1,
+          "requisitos": ["FS0210", "FS0211", "MA1002"],
+          "correquisitos": ["FS0310"]
+        },
+        {
+          "codigo": "IT3002",
+          "nombre": "Elementos de Hidrología",
+          "creditos": 3,
+          "requisitos": ["IT2002", "IT3005", "IT3006", "IT4002", "MA1001"],
+          "correquisitos": ["FS0310"]
+        },
+        {
+          "codigo": "IT4005",
+          "nombre": "Replanteo Topográfico y Construcción de Obras",
+          "creditos": 3,
+          "requisitos": ["IT3005", "IT3006", "IT4004", "MA1002"],
+          "correquisitos": ["IT4006"]
+        },
+        {
+          "codigo": "IT4006",
+          "nombre": "Práctica de Replanteo Topográfico y Const.",
+          "creditos": 2,
+          "requisitos": ["IT3005", "IT3006", "IT4004", "MA1002"],
+          "correquisitos": ["IT4005"]
+        },
+        {
+          "codigo": "MA1004",
+          "nombre": "Álgebra Lineal",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "SR-II",
+          "nombre": "Seminario de Realidad Nacional II",
+          "creditos": 2,
+          "requisitos": ["SR-I"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "cursos": [
+        {
+          "codigo": "IT4003",
+          "nombre": "Hidrometría",
+          "creditos": 3,
+          "requisitos": ["FS0210", "FS0211", "IT3002"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT5001",
+          "nombre": "Fotogrametría y Fotointerpretación Básica",
+          "creditos": 3,
+          "requisitos": ["IT3005", "IT3006", "IT4002"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT5004",
+          "nombre": "Ingeniería del Terreno",
+          "creditos": 3,
+          "requisitos": ["IT3002", "IT4005"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT5005",
+          "nombre": "Práctica de Ingeniería del Terreno",
+          "creditos": 2,
+          "requisitos": ["IT3002", "IT4005", "IT4006"],
+          "correquisitos": ["IT5004"]
+        },
+        {
+          "codigo": "MA2210",
+          "nombre": "Ecuaciones Diferenciales Aplicadas",
+          "creditos": 3,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "XS0217",
+          "nombre": "Probabilidades e Inferencia Estadística",
+          "creditos": 4,
+          "requisitos": ["MA1004"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "cursos": [
+        {
+          "codigo": "CI0202",
+          "nombre": "Principios de Informática",
+          "creditos": 4,
+          "requisitos": ["MA1001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT5002",
+          "nombre": "Urbanismo",
+          "creditos": 4,
+          "requisitos": ["IT4003", "IT5004"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT5003",
+          "nombre": "Errores y Ajustes Geodésicos",
+          "creditos": 3,
+          "requisitos": ["IT3005", "IT4002", "MA1004", "XS0217"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT5007",
+          "nombre": "Administración para Ingeniería Topográfica",
+          "creditos": 3,
+          "requisitos": ["IT4003", "MA2210"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT6002",
+          "nombre": "Fotogrametría y Fotointerpretación Aplicada",
+          "creditos": 3,
+          "requisitos": ["IT5001", "IT5004"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "cursos": [
+        {
+          "codigo": "FS0312",
+          "nombre": "Óptica Geométrica",
+          "creditos": 3,
+          "requisitos": ["FS0310", "FS0311"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT5006",
+          "nombre": "Control de Obras e Instrumentación",
+          "creditos": 3,
+          "requisitos": ["IT5003", "IT5004"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT6001",
+          "nombre": "Avalúo y Peritaje de Bienes",
+          "creditos": 3,
+          "requisitos": ["IT5007"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT6003",
+          "nombre": "Ingeniería Municipal",
+          "creditos": 3,
+          "requisitos": ["IT5002", "XS0217"],
+          "correquisitos": ["IT5006"]
+        },
+        {
+          "codigo": "IT6004",
+          "nombre": "Diseño Topográfico de Urbanizaciones",
+          "creditos": 4,
+          "requisitos": ["IT5002", "IT5003"],
+          "correquisitos": ["IT5006"]
+        }
+      ]
+    }
+  ],
+  "hitos": [
+    {
+      "id": "tcu",
+      "nombre": "Trabajo Comunal Universitario (TCU)",
+      "despuesDeSemestre": 6,
+      "creditosMinimos": null,
+      "requisitos": [],
+      "detalle": "El y la estudiante deben cumplir con 300 horas de Trabajo Comunal Universitario."
+    }
+  ]
+}

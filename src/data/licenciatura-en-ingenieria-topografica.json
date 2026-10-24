@@ -1,0 +1,211 @@
+{
+  "id": "licenciatura-en-ingenieria-topografica",
+  "carreraId": "ingenieria-topografica",
+  "carrera": "Lic. en Ingeniería Topográfica",
+  "carreraNombre": "Ingeniería Topográfica",
+  "enfasis": "Licenciatura",
+  "etiquetaSelector": "Plan",
+  "resolucion": "Plan de 2003",
+  "creditosTotales": 36,
+  "creditosPorSemestre": [19, 17, 0],
+  "semestres": [
+    {
+      "numero": 1,
+      "cursos": [
+        {
+          "codigo": "IT7001",
+          "nombre": "Aplicación de Sistemas CAD",
+          "creditos": 4,
+          "requisitos": ["CI0202", "FS0312", "IT6004"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT7002",
+          "nombre": "Hidrología Subterránea",
+          "creditos": 3,
+          "requisitos": ["IT6004", "XS0217"],
+          "correquisitos": ["IT7003"]
+        },
+        {
+          "codigo": "IT7003",
+          "nombre": "Sistemas de Información Territorial y Geodesia",
+          "creditos": 4,
+          "requisitos": ["IT6003", "XS0217"],
+          "correquisitos": ["IT7001"]
+        },
+        {
+          "codigo": "IT7004",
+          "nombre": "Legislación Aplicada",
+          "creditos": 3,
+          "requisitos": ["IT6001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT7005",
+          "nombre": "Catastro Municipal",
+          "creditos": 3,
+          "requisitos": ["IT6003"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT7006",
+          "nombre": "Métodos y Técnicas de Comunicación e Investigación",
+          "creditos": 2,
+          "requisitos": ["XS0217"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "cursos": [
+        {
+          "codigo": "IT8001",
+          "nombre": "Sistemas de Posicionamiento Global (GPS)",
+          "creditos": 4,
+          "requisitos": ["IT7001"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IT8003",
+          "nombre": "Fotogrametría Digital",
+          "creditos": 4,
+          "requisitos": ["IT7001", "IT7003"],
+          "correquisitos": ["IT8001"]
+        },
+        {
+          "codigo": "IT8004",
+          "nombre": "Metodologías de Avalúos de Terrenos y Edificaciones",
+          "creditos": 3,
+          "requisitos": ["IT7005"],
+          "correquisitos": ["IT8005"]
+        },
+        {
+          "codigo": "IT8005",
+          "nombre": "Geodesia Superior",
+          "creditos": 3,
+          "requisitos": ["IT7005"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "OPT919-1",
+          "nombre": "Optativo de Licenciatura 1",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT919"
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "cursos": [
+        {
+          "codigo": "OPT1115-1",
+          "nombre": "Bloque para TFG",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1115"
+        }
+      ]
+    }
+  ],
+  "optativas": {
+    "OPT919": [
+      {
+        "codigo": "IT8006",
+        "nombre": "Elementos de Ingeniería Ambiental para Topografia",
+        "creditos": 3,
+        "requisitos": ["IT7002"]
+      },
+      {
+        "codigo": "IT8007",
+        "nombre": "Taller Diagnóstico y Diseño de Procesos de Capacitación en Ingeniería Topográfica",
+        "creditos": 4,
+        "requisitos": ["IT7006"]
+      },
+      {
+        "codigo": "LM1030",
+        "nombre": "Estrategias de Lectura en Inglés I (para otras carreras)",
+        "creditos": 4,
+        "requisitos": []
+      }
+    ],
+    "OPT1115": [
+      {
+        "codigo": "IT9500",
+        "nombre": "Investigacion Dirigida 1",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "IT9501",
+        "nombre": "Investigación Dirigida II",
+        "creditos": 0,
+        "requisitos": ["IT9500"]
+      },
+      {
+        "codigo": "IT9502",
+        "nombre": "Investigación Dirigida III",
+        "creditos": 0,
+        "requisitos": ["IT9501"]
+      },
+      {
+        "codigo": "IT9600",
+        "nombre": "Seminario de Graduación",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "IT9601",
+        "nombre": "Seminario de Graduación II",
+        "creditos": 0,
+        "requisitos": ["IT9600"]
+      },
+      {
+        "codigo": "IT9602",
+        "nombre": "Seminario de Graduación III",
+        "creditos": 0,
+        "requisitos": ["IT9601"]
+      },
+      {
+        "codigo": "IT9700",
+        "nombre": "Práctica Dirigida I",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "IT9701",
+        "nombre": "Práctica Dirigida II",
+        "creditos": 0,
+        "requisitos": ["IT9700"]
+      },
+      {
+        "codigo": "IT9702",
+        "nombre": "Práctica Dirigida III",
+        "creditos": 0,
+        "requisitos": ["IT9701"]
+      },
+      {
+        "codigo": "IT9800",
+        "nombre": "Proyecto de Graduación I",
+        "creditos": 0,
+        "requisitos": []
+      },
+      {
+        "codigo": "IT9801",
+        "nombre": "Proyecto de Graduación 2",
+        "creditos": 0,
+        "requisitos": ["IT9800"]
+      },
+      {
+        "codigo": "IT9802",
+        "nombre": "Proyecto de Graduación 3",
+        "creditos": 0,
+        "requisitos": ["IT9801"]
+      }
+    ]
+  },
+  "hitos": []
+}
