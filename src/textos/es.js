@@ -69,6 +69,6 @@ export const T = {
   },
 };
 export const LINKEDIN = 'https://cr.linkedin.com/in/josvejr';
-export const ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
+export const ROMANOS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV'];
 export const GITHUB = 'https://github.com/josveji';
 export const PIE = { autor: 'Josué María Jiménez Ramírez', derechos: 'Todos los derechos reservados.', linkedin: 'LinkedIn', github: 'GitHub' };
