@@ -229,15 +229,8 @@
         {
           "codigo": "CI0129",
           "nombre": "Inteligencia Artificial",
-          "creditos": 4,
-          "requisitos": ["CI0115"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "RP-1",
-          "nombre": "Repertorio",
           "creditos": 3,
-          "requisitos": [],
+          "requisitos": ["CI0115"],
           "correquisitos": []
         }
       ]
@@ -326,7 +319,7 @@
         {
           "codigo": "OPT1061-3",
           "nombre": "Optativo de Ciencias de la Computación III",
-          "creditos": 4,
+          "creditos": 3,
           "requisitos": [],
           "correquisitos": [],
           "optativa": "OPT1061"

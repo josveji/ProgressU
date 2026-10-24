@@ -180,13 +180,6 @@
           "correquisitos": ["CI0123"]
         },
         {
-          "codigo": "CI0123",
-          "nombre": "Proyecto Integrador de Sistemas Operativos y Redes",
-          "creditos": 4,
-          "requisitos": ["CI0116", "CI0118"],
-          "correquisitos": ["CI0121", "CI0122"]
-        },
-        {
           "codigo": "CI0135",
           "nombre": "Interacción Humano-Computador",
           "creditos": 4,
@@ -213,20 +206,6 @@
           "correquisitos": ["CI0128"]
         },
         {
-          "codigo": "CI0127",
-          "nombre": "Base de Datos",
-          "creditos": 4,
-          "requisitos": ["CI0116"],
-          "correquisitos": ["CI0128"]
-        },
-        {
-          "codigo": "CI0128",
-          "nombre": "Proyecto Integrador de Ingeniería de Software",
-          "creditos": 3,
-          "requisitos": ["CI0116"],
-          "correquisitos": ["CI0126", "CI0127"]
-        },
-        {
           "codigo": "CI0137",
           "nombre": "Desarrollo de Aplicaciones Web",
           "creditos": 4,
@@ -236,6 +215,13 @@
         {
           "codigo": "RP-1",
           "nombre": "Repertorio",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "OPT-IS-EX",
+          "nombre": "Curso complementario énfasis",
           "creditos": 3,
           "requisitos": [],
           "correquisitos": []
@@ -276,7 +262,7 @@
         {
           "codigo": "OPT1062-1",
           "nombre": "Optativo de Ingeniería de Software I",
-          "creditos": 4,
+          "creditos": 3,
           "requisitos": [],
           "correquisitos": [],
           "optativa": "OPT1062"
@@ -284,7 +270,7 @@
         {
           "codigo": "OPT1062-2",
           "nombre": "Optativo de Ingeniería de Software II",
-          "creditos": 4,
+          "creditos": 3,
           "requisitos": [],
           "correquisitos": [],
           "optativa": "OPT1062"
@@ -325,7 +311,7 @@
         {
           "codigo": "SR-II",
           "nombre": "Seminario de Realidad Nacional II",
-          "creditos": 2,
+          "creditos": 4,
           "requisitos": ["SR-I"],
           "correquisitos": []
         }
