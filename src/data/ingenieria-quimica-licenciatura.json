@@ -480,6 +480,28 @@
           "correquisitos": []
         },
         {
+          "codigo": "IQ9500",
+          "nombre": "INVESTIGACION DIRIGIDA 1",
+          "creditos": 0,
+          "requisitos": ["IQ0590"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ9700",
+          "nombre": "PRÁCTICA DIRIGIDA I",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "cargo": "curso",
+          "codigo": "IQ9800",
+          "nombre": "PROYECTO DE GRADUACIÓN I",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
           "codigo": "OPT413-3",
           "nombre": "Bloque Optativo 3",
           "creditos": 3,
@@ -491,11 +513,55 @@
     },
     {
       "numero": 11,
-      "cursos": []
+      "cursos": [
+        {
+          "codigo": "IQ9501",
+          "nombre": "INVESTIGACIÓN DIRIGIDA II",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ9701",
+          "nombre": "PRÁCTICA DIRIGIDA II",
+          "creditos": 0,
+          "requisitos": ["IQ9700"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ9801",
+          "nombre": "PROYECTO DE GRADUACIÓN II",
+          "creditos": 0,
+          "requisitos": ["IQ9800"],
+          "correquisitos": []
+        }
+      ]
     },
     {
       "numero": 12,
-      "cursos": []
+      "cursos": [
+        {
+          "codigo": "IQ9502",
+          "nombre": "INVESTIGACION DIRIGIDA III",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ9702",
+          "nombre": "PRÁCTICA DIRIGIDA III",
+          "creditos": 0,
+          "requisitos": ["IQ9701"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "IQ9802",
+          "nombre": "PROYECTO DE GRADUACIÓN III",
+          "creditos": 0,
+          "requisitos": ["IQ9801"],
+          "correquisitos": []
+        }
+      ]
     }
   ],
   "optativas": {
@@ -561,6 +627,7 @@
         "requisitos": ["IQ0331"]
       },
       {
+        "keyword": "IQ0621",
         "codigo": "IQ0621",
         "nombre": "Gestión de la Calidad",
         "creditos": 3,
@@ -639,8 +706,9 @@
         "requisitos": ["IQ0335", "IQ0423", "QU0214"]
       },
       {
+        "keyword": "IQ0672",
         "codigo": "IQ0672",
-        "nombre": "Gestión Integral de los Desechos Sólidos: Ordinarios y Especiales",
+        "nombre": "JSON",
         "creditos": 3,
         "requisitos": ["IQ0423", "QU0214"]
       },
@@ -707,7 +775,7 @@
       "despuesDeSemestre": 5,
       "creditosMinimos": null,
       "requisitos": [],
-      "detalle": "El y la estudiante deben aprobar 300 horas de Trabajo Comunitario Universitario (TCU)."
+      "detalle": "El y la estudiante deben aprobar 300 horas de Trabajo Comunitario Universitario (TCU)[cite: 5]."
     },
     {
       "id": "modalidad-graduacion-investigacion",
@@ -715,7 +783,7 @@
       "despuesDeSemestre": 9,
       "creditosMinimos": null,
       "requisitos": ["IQ0590"],
-      "detalle": "Modalidad de graduación que comprende los cursos IQ9500 (Investigación Dirigida I), IQ9501 (Investigación Dirigida II) e IQ9502 (Investigación Dirigida III)."
+      "detalle": "Modalidad de graduación que comprende los cursos IQ9500 (Investigación Dirigida I), IQ9501 (Investigación Dirigida II) e IQ9502 (Investigación Dirigida III)[cite: 4]."
     },
     {
       "id": "modalidad-graduacion-practica",
@@ -723,15 +791,15 @@
       "despuesDeSemestre": 9,
       "creditosMinimos": null,
       "requisitos": ["IQ0590"],
-      "detalle": "Modalidad de graduación que comprende los cursos IQ9700 (Práctica Dirigida I), IQ9701 (Práctica Dirigida II) e IQ9702 (Práctica Dirigida III)."
+      "detalle": "Modalidad de graduación queционе comprende los cursos IQ9700 (Práctica Dirigida I), IQ9701 (Práctica Dirigida II) e IQ9702 (Práctica Dirigida III)[cite: 4]."
     },
     {
       "id": "modalidad-graduacion-proyecto",
       "nombre": "Proyecto de Graduación",
       "despuesDeSemestre": 9,
       "creditosMinimos": null,
-      "requisitos": ["IQ0590"],
-      "detalle": "Modalidad de graduación que comprende los cursos IQ9800 (Proyecto de Graduación I), IQ9801 (Proyecto de Graduación II) e IQ9802 (Proyecto de Graduación III)."
+      "requisitos": ["IQ9800"],
+      "detalle": "Modalidad de graduación que comprende los cursos IQ9800 (Proyecto de Graduación I), IQ9801 (Proyecto de Graduación II) e IQ9802 (Proyecto de Graduación III)[cite: 4, 5]."
     }
   ]
 }
