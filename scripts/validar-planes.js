@@ -14,7 +14,7 @@ for (const [id, p] of Object.entries(leidos)) {
   const antes = errores;
   if (p.id !== id) err(`${id}.json: el id ("${p.id}") debe coincidir con el nombre del archivo`);
   ['carreraId', 'carrera', 'enfasis'].forEach((c) => { if (!p[c]) err(`${id}: falta el campo "${c}"`); });
-  if (p.semestres.length > 12) err(`${id}: máximo 12 semestres`);
+  if (p.semestres.length > 14) err(`${id}: máximo 14 semestres`);
 
   const bases = [].concat(p.planBase ?? []).map((b) => {
     if (!leidos[b]) err(`${id}: planBase "${b}" no existe`);

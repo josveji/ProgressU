@@ -198,7 +198,7 @@
           "nombre": "Termodinamica I",
           "creditos": 3,
           "requisitos": ["FS0310", "FS0311", "MA1002", "QU0114", "QU0115"],
-          "correquisitos": ["QU0101"]
+          "correquisitos": []
         },
         {
           "codigo": "IM0315",
@@ -323,7 +323,7 @@
         {
           "codigo": "SR-I",
           "nombre": "Seminario de Realidad Nacional I",
-          "creditos": 2,
+          "creditos": 1,
           "requisitos": ["EG-II"],
           "correquisitos": []
         }
