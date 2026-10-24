@@ -1,0 +1,667 @@
+{
+  "id": "licenciatura-en-arquitectura",
+  "carreraId": "arquitectura",
+  "carrera": "Lic. en Arquitectura",
+  "carreraNombre": "Arquitectura",
+  "enfasis": "Bloque Común",
+  "etiquetaSelector": "Plan",
+  "resolucion": "Plan de 1992",
+  "creditosTotales": 170,
+  "creditosPorSemestre": [18, 18, 16, 17, 17, 18, 17, 17, 16, 16, 0],
+  "semestres": [
+    {
+      "numero": 1,
+      "cursos": [
+        {
+          "codigo": "AQ0119",
+          "nombre": "Arquitectura, Escritura",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0122",
+          "nombre": "Fundamentos de Arquitectura I",
+          "creditos": 6,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EF-",
+          "nombre": "Actividad Deportiva",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-I",
+          "nombre": "Curso Integrado de Humanidades I",
+          "creditos": 6,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "MA1111",
+          "nombre": "Fundamentos de Geometría con Trigonometría",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "cursos": [
+        {
+          "codigo": "AQ0120",
+          "nombre": "Arquitectura, Información y Procesos de Sistematización",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0123",
+          "nombre": "Fundamentos de Arquitectura II",
+          "creditos": 6,
+          "requisitos": ["AQ0122"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0233",
+          "nombre": "Las Estructuras",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-II",
+          "nombre": "Curso Integrado de Humanidades II",
+          "creditos": 6,
+          "requisitos": ["EG-I"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "FS0121",
+          "nombre": "Fundamentos de Física",
+          "creditos": 1,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "cursos": [
+        {
+          "codigo": "AQ0103",
+          "nombre": "Taller de Diseño III",
+          "creditos": 6,
+          "requisitos": ["AQ0123"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0234",
+          "nombre": "Introducción a la Historia de la Arquitectura",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0237",
+          "nombre": "Mecánica",
+          "creditos": 2,
+          "requisitos": ["AQ0233", "FS0121"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0239",
+          "nombre": "Diseño Climatológico",
+          "creditos": 2,
+          "requisitos": ["AQ0123"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0268",
+          "nombre": "Representación Tridimensional I",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "SR-I",
+          "nombre": "Seminario de Realidad Nacional I",
+          "creditos": 2,
+          "requisitos": ["EG-II"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "cursos": [
+        {
+          "codigo": "AQ0104",
+          "nombre": "Taller de Diseño IV",
+          "creditos": 6,
+          "requisitos": ["AQ0103"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0204",
+          "nombre": "Taller de Construcción I",
+          "creditos": 2,
+          "requisitos": ["AQ0103"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0219",
+          "nombre": "Historia de la Arquitectura I",
+          "creditos": 2,
+          "requisitos": ["AQ0234"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0227",
+          "nombre": "Mecánica del Sólido",
+          "creditos": 2,
+          "requisitos": ["AQ0237"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0277",
+          "nombre": "Teoría de la Arquitectura I",
+          "creditos": 3,
+          "requisitos": ["AQ0234"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "SR-II",
+          "nombre": "Seminario de Realidad Nacional II",
+          "creditos": 2,
+          "requisitos": ["SR-I"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "cursos": [
+        {
+          "codigo": "AQ0105",
+          "nombre": "Taller de Diseño V",
+          "creditos": 7,
+          "requisitos": ["AQ0104", "AQ0239"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0205",
+          "nombre": "Taller de Construcción II",
+          "creditos": 2,
+          "requisitos": ["AQ0204"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0220",
+          "nombre": "Historia de la Arquitectura II",
+          "creditos": 2,
+          "requisitos": ["AQ0219"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0368",
+          "nombre": "Representación Tridimensional II",
+          "creditos": 2,
+          "requisitos": ["AQ0268"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "LM1030",
+          "nombre": "Estrategias de Lectura en Inglés I",
+          "creditos": 4,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "cursos": [
+        {
+          "codigo": "AQ0106",
+          "nombre": "Taller de Diseño VI",
+          "creditos": 7,
+          "requisitos": ["AQ0105"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0222",
+          "nombre": "Historia de la Arquitectura III",
+          "creditos": 2,
+          "requisitos": ["AQ0220"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0229",
+          "nombre": "Manejo de Información Ambiental",
+          "creditos": 2,
+          "requisitos": ["AQ0239"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0271",
+          "nombre": "Formulación y Gestión de Proyectos I",
+          "creditos": 2,
+          "requisitos": ["AQ0104"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0300",
+          "nombre": "Instalaciones en los Edificios I",
+          "creditos": 2,
+          "requisitos": ["AQ0105", "AQ0205", "AQ0368", "FS0121"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "RP-1",
+          "nombre": "Repertorio",
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "cursos": [
+        {
+          "codigo": "AQ0107",
+          "nombre": "Taller de Diseño VII",
+          "creditos": 7,
+          "requisitos": ["AQ0106"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0121",
+          "nombre": "Instalaciones en los Edificios II",
+          "creditos": 2,
+          "requisitos": ["AQ0300"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0206",
+          "nombre": "Taller de Construccion III",
+          "creditos": 2,
+          "requisitos": ["AQ0205"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0246",
+          "nombre": "Habilitación de Sitio",
+          "creditos": 2,
+          "requisitos": ["AQ0105"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0272",
+          "nombre": "Formulación y Gestión de Proyectos II",
+          "creditos": 2,
+          "requisitos": ["AQ0271"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0303",
+          "nombre": "Sistemas de Cimentación y Soporte",
+          "creditos": 2,
+          "requisitos": ["AQ0227"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "cursos": [
+        {
+          "codigo": "AQ0108",
+          "nombre": "Taller de Diseño VIII",
+          "creditos": 7,
+          "requisitos": ["AQ0107"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0249",
+          "nombre": "Estructuras de Concreto Armado",
+          "creditos": 2,
+          "requisitos": ["AQ0105", "AQ0303"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0257",
+          "nombre": "Arquitectura Paisajista",
+          "creditos": 2,
+          "requisitos": ["AQ0229"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0278",
+          "nombre": "Teoría de la Arquitectura II",
+          "creditos": 3,
+          "requisitos": ["AQ0277"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0460",
+          "nombre": "Teoria e Investigación Urbana",
+          "creditos": 3,
+          "requisitos": ["AQ0106"],
+          "correquisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "cursos": [
+        {
+          "codigo": "AQ0109",
+          "nombre": "Taller de Diseño IX",
+          "creditos": 8,
+          "requisitos": ["AQ0108"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0253",
+          "nombre": "Estructuras Acero y Madera",
+          "creditos": 2,
+          "requisitos": ["AQ0303"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0259",
+          "nombre": "Control de Obras",
+          "creditos": 2,
+          "requisitos": ["AQ0206"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "EG-",
+          "nombre": "Curso de Arte",
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": []
+        },
+        {
+          "codigo": "OPT414-1",
+          "nombre": "Optativo de Arquitectura I",
+          "creditos": 2,
+          "requisitos": ["AQ0106"],
+          "correquisitos": [],
+          "optativa": "OPT414"
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "cursos": [
+        {
+          "codigo": "AQ0110",
+          "nombre": "Taller de Diseño X",
+          "creditos": 8,
+          "requisitos": ["AQ0109"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0207",
+          "nombre": "Taller de Construccion IV",
+          "creditos": 2,
+          "requisitos": ["AQ0108", "AQ0206"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "AQ0256",
+          "nombre": "Formulación de Trabajos Finales de Graduación",
+          "creditos": 2,
+          "requisitos": ["AQ0108", "AQ0272"],
+          "correquisitos": []
+        },
+        {
+          "codigo": "OPT414-2",
+          "nombre": "Optativo de Arquitectura II",
+          "creditos": 4,
+          "requisitos": ["AQ0106"],
+          "correquisitos": [],
+          "optativa": "OPT414"
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "cursos": [
+        {
+          "codigo": "AQ9500",
+          "nombre": "Investigación Dirigida I",
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "optativa": "OPT1115"
+        }
+      ]
+    }
+  ],
+  "optativas": {
+    "OPT414": [
+      {
+        "codigo": "AQ0124",
+        "nombre": "Temas Avanzados XI",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0125",
+        "nombre": "Temas Avanzados XII",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0126",
+        "nombre": "Temas Avanzados XIII",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0127",
+        "nombre": "Temas Avanzados XIV",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0128",
+        "nombre": "Temas Avanzados XV",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0129",
+        "nombre": "Temas Avanzados XVI",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0130",
+        "nombre": "Temas Avanzados XVII",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0131",
+        "nombre": "Temas Avanzados XVIII",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0132",
+        "nombre": "Temas Avanzados XIX",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0133",
+        "nombre": "Temas Avanzados XX",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0215",
+        "nombre": "Investigacion Urbana",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0247",
+        "nombre": "Teoría del Desarrollo Urbano Regional",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0248",
+        "nombre": "Áreas Verdes y Floresta Urbana",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0258",
+        "nombre": "Modelos Bioclimáticos",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0260",
+        "nombre": "Modelos de la Estructura y de la Forma",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0261",
+        "nombre": "Audiovisuales",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0263",
+        "nombre": "Modelos y Maquetas",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0264",
+        "nombre": "Grabado para Arquitectura",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0265",
+        "nombre": "Ciudades e Historia Contemporánea",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0266",
+        "nombre": "Restauración Arquitectónica",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0273",
+        "nombre": "Evaluación del Impacto Ambiental",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0274",
+        "nombre": "Temas Avanzados I",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0275",
+        "nombre": "Temas Avanzados II",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0276",
+        "nombre": "Temas Avanzados III",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0279",
+        "nombre": "Seminario de Arquitectura Latinoamericana",
+        "creditos": 3,
+        "requisitos": ["AQ0222"]
+      },
+      {
+        "codigo": "AQ0280",
+        "nombre": "Temas Avanzados IV",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0281",
+        "nombre": "Temas Avanzados V",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0282",
+        "nombre": "Temas Avanzados VI",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0283",
+        "nombre": "Temas Avanzados VII",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0284",
+        "nombre": "Temas Avanzados VIII",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0285",
+        "nombre": "Temas Avanzados IX",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0286",
+        "nombre": "Temas Avanzados X",
+        "creditos": 3,
+        "requisitos": ["AQ0106"]
+      },
+      {
+        "codigo": "AQ0468",
+        "nombre": "Representación Tridimensional III",
+        "creditos": 3,
+        "requisitos": ["AQ0368"]
+      },
+      {
+        "codigo": "ND0008",
+        "nombre": "Biomímesis, Biomateriales y Desafíos Socioecológicos",
+        "creditos": 2,
+        "requisitos": []
+      }
+    ]
+  },
+  "hitos": [
+    {
+      "id": "tcu",
+      "nombre": "Trabajo Comunal Universitario (300 horas)",
+      "despuesDeSemestre": 11,
+      "creditosMinimos": null,
+      "requisitos": [],
+      "detalle": "El y la estudiante deben aprobar 300 horas de Trabajo Comunal Universitario."
+    }
+  ]
+}
