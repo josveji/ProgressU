@@ -1,5 +1,5 @@
 {
-  "id": "lic-en-ingenieria-quimica-plan-1",
+  "id": "lic-ingenieria-quimica",
   "carreraId": "ingenieria-quimica",
   "carrera": "Lic. en Ingeniería Química",
   "carreraNombre": "Ingeniería Química",
@@ -501,8 +501,8 @@
   "optativas": {
     "OPT413": [
       {
-        "codigo": "IQ0330",
-        "nombre": "Ingeniería de Procesos I",
+        "codigo": "100330",
+        "nombre": "Ingenieria de Procesos I",
         "creditos": 3,
         "requisitos": ["IQ0335", "QU0214"]
       },
@@ -514,7 +514,7 @@
       },
       {
         "codigo": "IQ0500",
-        "nombre": "Ingeniería Petrolera",
+        "nombre": "Ingenieria Petrolera",
         "creditos": 3,
         "requisitos": ["IQ0423", "IQ0432"]
       },
@@ -526,7 +526,7 @@
       },
       {
         "codigo": "IQ0552",
-        "nombre": "Corrosión",
+        "nombre": "Corrosion",
         "creditos": 3,
         "requisitos": ["IQ0415"]
       },
@@ -541,6 +541,18 @@
         "nombre": "Diseño de Procesos y Equipo en Alimentos",
         "creditos": 3,
         "requisitos": ["IQ0423"]
+      },
+      {
+        "codigo": "IQ0570",
+        "nombre": "Tecnología de Polímeros",
+        "creditos": 3,
+        "requisitos": ["IQ0415", "QU0212"]
+      },
+      {
+        "codigo": "IQ0579",
+        "nombre": "Tecnología de Polímeros II",
+        "creditos": 3,
+        "requisitos": ["IQ0570", "QU0212"]
       },
       {
         "codigo": "IQ0620",
@@ -592,7 +604,7 @@
       },
       {
         "codigo": "IQ0655",
-        "nombre": "Cerámica Industrial",
+        "nombre": "Ceramica Industrial",
         "creditos": 3,
         "requisitos": ["IQ0415"]
       },
@@ -634,13 +646,13 @@
       },
       {
         "codigo": "IQ0680",
-        "nombre": "Ingeniería Textil",
+        "nombre": "Ingenieria Textil",
         "creditos": 3,
         "requisitos": ["IQ0335", "QU0214"]
       },
       {
         "codigo": "IQ0690",
-        "nombre": "Instalaciones Frigoríficas",
+        "nombre": "Instalaciones Frigorificas",
         "creditos": 3,
         "requisitos": ["IQ0335", "IQ0423"]
       },
@@ -685,18 +697,6 @@
         "nombre": "Fuentes Renovables de Energía",
         "creditos": 3,
         "requisitos": ["IQ0334"]
-      },
-      {
-        "codigo": "IQ0570",
-        "nombre": "Tecnología de Polímeros",
-        "creditos": 3,
-        "requisitos": ["IQ0415", "QU0212"]
-      },
-      {
-        "codigo": "IQ0579",
-        "nombre": "Tecnología de Polímeros II",
-        "creditos": 3,
-        "requisitos": ["IQ0570", "QU0212"]
       }
     ]
   },
