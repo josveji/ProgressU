@@ -393,11 +393,12 @@
       ]
     }
   ],
+  "optativas": {},
   "hitos": [
     {
       "id": "tcu",
-      "nombre": "Trabajo Comunal Universitario (TCU)",
-      "despuesDeSemestre": 6,
+      "nombre": "Trabajo Comunal Universitario (300 horas)",
+      "despuesDeSemestre": 8,
       "creditosMinimos": null,
       "requisitos": [],
       "detalle": "El y la estudiante deben cumplir con 300 horas de Trabajo Comunal Universitario."

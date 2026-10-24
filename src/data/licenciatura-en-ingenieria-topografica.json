@@ -1,16 +1,16 @@
 {
-  "id": "licenciatura-en-ingenieria-topografica",
+  "id": "ingenieria-topografica-licenciatura",
   "carreraId": "ingenieria-topografica",
-  "carrera": "Lic. en Ingeniería Topográfica",
-  "carreraNombre": "Ingeniería Topográfica",
+  "carrera": "Ingeniería Topográfica",
   "enfasis": "Licenciatura",
   "etiquetaSelector": "Plan",
+  "planBase": "bachillerato-en-ingenieria-topografica",
   "resolucion": "Plan de 2003",
   "creditosTotales": 36,
-  "creditosPorSemestre": [19, 17, 0],
+  "creditosPorSemestre": [19, 17],
   "semestres": [
     {
-      "numero": 1,
+      "numero": 9,
       "cursos": [
         {
           "codigo": "IT7001",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "numero": 2,
+      "numero": 10,
       "cursos": [
         {
           "codigo": "IT8001",
@@ -94,19 +94,6 @@
           "requisitos": [],
           "correquisitos": [],
           "optativa": "OPT919"
-        }
-      ]
-    },
-    {
-      "numero": 3,
-      "cursos": [
-        {
-          "codigo": "OPT1115-1",
-          "nombre": "Bloque para TFG",
-          "creditos": 0,
-          "requisitos": [],
-          "correquisitos": [],
-          "optativa": "OPT1115"
         }
       ]
     }
@@ -171,19 +158,19 @@
       },
       {
         "codigo": "IT9700",
-        "nombre": "Práctica Dirigida I",
+        "nombre": "Práctica Dirigida 1",
         "creditos": 0,
         "requisitos": []
       },
       {
         "codigo": "IT9701",
-        "nombre": "Práctica Dirigida II",
+        "nombre": "Práctica Dirigida 2",
         "creditos": 0,
         "requisitos": ["IT9700"]
       },
       {
         "codigo": "IT9702",
-        "nombre": "Práctica Dirigida III",
+        "nombre": "Práctica Dirigida 3",
         "creditos": 0,
         "requisitos": ["IT9701"]
       },
