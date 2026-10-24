@@ -12,377 +12,94 @@
     {
       "numero": 1,
       "cursos": [
-        {
-          "codigo": "CI0110",
-          "nombre": "Introducción a la Computación",
-          "creditos": 4,
-          "requisitos": [],
-          "correquisitos": []
-        },
-        {
-          "codigo": "EF-",
-          "nombre": "Actividad Deportiva",
-          "creditos": 0,
-          "requisitos": [],
-          "correquisitos": []
-        },
-        {
-          "codigo": "EG-I",
-          "nombre": "Curso Integrado de Humanidades I",
-          "creditos": 6,
-          "requisitos": [],
-          "correquisitos": []
-        },
-        {
-          "codigo": "LM1030",
-          "nombre": "Estrategias de Lectura en Inglés I",
-          "creditos": 4,
-          "requisitos": [],
-          "correquisitos": []
-        },
-        {
-          "codigo": "MA0291",
-          "nombre": "Introducción a la Matemática para Computación",
-          "creditos": 4,
-          "requisitos": [],
-          "correquisitos": []
-        }
+        {"codigo": "CI0110", "nombre": "Introducción a la Computación", "creditos": 4, "requisitos": [], "correquisitos": []},
+        {"codigo": "EF-", "nombre": "Actividad Deportiva", "creditos": 0, "requisitos": [], "correquisitos": []},
+        {"codigo": "EG-I", "nombre": "Curso Integrado de Humanidades I", "creditos": 6, "requisitos": [], "correquisitos": []},
+        {"codigo": "LM1030", "nombre": "Estrategias de Lectura en Inglés I", "creditos": 4, "requisitos": [], "correquisitos": []},
+        {"codigo": "MA0291", "nombre": "Introducción a la Matemática para Computación", "creditos": 4, "requisitos": [], "correquisitos": []}
       ]
     },
     {
       "numero": 2,
       "cursos": [
-        {
-          "codigo": "CI0111",
-          "nombre": "Estructuras Discretas",
-          "creditos": 4,
-          "requisitos": ["MA0291"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0112",
-          "nombre": "Programación I",
-          "creditos": 4,
-          "requisitos": ["CI0110"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "EG-II",
-          "nombre": "Curso Integrado de Humanidades II",
-          "creditos": 6,
-          "requisitos": ["EG-I"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "MA0293",
-          "nombre": "Cálculo para Computación I",
-          "creditos": 4,
-          "requisitos": ["MA0291"],
-          "correquisitos": []
-        }
+        {"codigo": "CI0111", "nombre": "Estructuras Discretas", "creditos": 4, "requisitos": ["MA0291"], "correquisitos": []},
+        {"codigo": "CI0112", "nombre": "Programación I", "creditos": 4, "requisitos": ["CI0110"], "correquisitos": []},
+        {"codigo": "EG-II", "nombre": "Curso Integrado de Humanidades II", "creditos": 6, "requisitos": ["EG-I"], "correquisitos": []},
+        {"codigo": "MA0293", "nombre": "Cálculo para Computación I", "creditos": 4, "requisitos": ["MA0291"], "correquisitos": []}
       ]
     },
     {
       "numero": 3,
       "cursos": [
-        {
-          "codigo": "CI0113",
-          "nombre": "Programación II",
-          "creditos": 4,
-          "requisitos": ["CI0112"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0114",
-          "nombre": "Fundamentos de Arquitectura",
-          "creditos": 4,
-          "requisitos": ["CI0111", "CI0112"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "MA0292",
-          "nombre": "Álgebra Lineal para Computación",
-          "creditos": 4,
-          "requisitos": ["MA0291"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "MA0294",
-          "nombre": "Cálculo para Computación II",
-          "creditos": 4,
-          "requisitos": ["MA0293"],
-          "correquisitos": ["MA0292"]
-        },
-        {
-          "codigo": "SR-I",
-          "nombre": "Seminario de Realidad Nacional I",
-          "creditos": 2,
-          "requisitos": ["EG-II"],
-          "correquisitos": []
-        }
+        {"codigo": "CI0113", "nombre": "Programación II", "creditos": 4, "requisitos": ["CI0112"], "correquisitos": []},
+        {"codigo": "CI0114", "nombre": "Fundamentos de Arquitectura", "creditos": 4, "requisitos": ["CI0111", "CI0112"], "correquisitos": []},
+        {"codigo": "MA0292", "nombre": "Álgebra Lineal para Computación", "creditos": 4, "requisitos": ["MA0291"], "correquisitos": []},
+        {"codigo": "MA0294", "nombre": "Cálculo para Computación II", "creditos": 4, "requisitos": ["MA0293"], "correquisitos": ["MA0292"]},
+        {"codigo": "SR-I", "nombre": "Seminario de Realidad Nacional I", "creditos": 2, "requisitos": ["EG-II"], "correquisitos": []}
       ]
     },
     {
       "numero": 4,
       "cursos": [
-        {
-          "codigo": "CI0115",
-          "nombre": "Probabilidad y Estadística",
-          "creditos": 4,
-          "requisitos": ["CI0111", "MA0294"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0116",
-          "nombre": "Análisis de Algoritmos y Estructuras de Datos",
-          "creditos": 4,
-          "requisitos": ["CI0111", "CI0113"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0117",
-          "nombre": "Programación Paralela y Concurrente",
-          "creditos": 4,
-          "requisitos": ["CI0113", "CI0114", "MA0292"],
-          "correquisitos": ["CI0116"]
-        },
-        {
-          "codigo": "CI0118",
-          "nombre": "Lenguaje Ensamblador",
-          "creditos": 4,
-          "requisitos": ["CI0114"],
-          "correquisitos": ["CI0119"]
-        },
-        {
-          "codigo": "CI0119",
-          "nombre": "Proyecto Integrador de Arquitectura y Ensamblador",
-          "creditos": 2,
-          "requisitos": ["CI0114"],
-          "correquisitos": ["CI0118"]
-        }
+        {"codigo": "CI0115", "nombre": "Probabilidad y Estadística", "creditos": 4, "requisitos": ["CI0111", "MA0294"], "correquisitos": []},
+        {"codigo": "CI0116", "nombre": "Análisis de Algoritmos y Estructuras de Datos", "creditos": 4, "requisitos": ["CI0111", "CI0113"], "correquisitos": []},
+        {"codigo": "CI0117", "nombre": "Programación Paralela y Concurrente", "creditos": 4, "requisitos": ["CI0113", "CI0114", "MA0292"], "correquisitos": ["CI0116"]},
+        {"codigo": "CI0118", "nombre": "Lenguaje Ensamblador", "creditos": 4, "requisitos": ["CI0114"], "correquisitos": ["CI0119"]},
+        {"codigo": "CI0119", "nombre": "Proyecto Integrador de Arquitectura y Ensamblador", "creditos": 2, "requisitos": ["CI0114"], "correquisitos": ["CI0118"]}
       ]
     },
     {
       "numero": 5,
       "cursos": [
-        {
-          "codigo": "CI0121",
-          "nombre": "Redes de Comunicación de Datos",
-          "creditos": 3,
-          "requisitos": ["CI0115", "CI0116", "CI0118"],
-          "correquisitos": ["CI0123"]
-        },
-        {
-          "codigo": "CI0122",
-          "nombre": "Sistemas Operativos",
-          "creditos": 3,
-          "requisitos": ["CI0116", "CI0117", "CI0118"],
-          "correquisitos": ["CI0123"]
-        },
-        {
-          "codigo": "CI0124",
-          "nombre": "Computabilidad y Complejidad",
-          "creditos": 4,
-          "requisitos": ["CI0116"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0130",
-          "nombre": "Métodos de Modelado y Optimización",
-          "creditos": 4,
-          "requisitos": ["CI0115"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "TI-COMP-5",
-          "nombre": "Complemento de Créditos TI",
-          "creditos": 2,
-          "requisitos": [],
-          "correquisitos": []
-        }
+        {"codigo": "CI0121", "nombre": "Redes de Comunicación de Datos", "creditos": 3, "requisitos": ["CI0115", "CI0116", "CI0118"], "correquisitos": ["CI0123"]},
+        {"codigo": "CI0122", "nombre": "Sistemas Operativos", "creditos": 3, "requisitos": ["CI0116", "CI0117", "CI0118"], "correquisitos": ["CI0123"]},
+        {"codigo": "CI0123", "nombre": "Proyecto Integrador de Sistemas Operativos y Redes", "creditos": 4, "requisitos": ["CI0116", "CI0118"], "correquisitos": ["CI0121", "CI0122"]},
+        {"codigo": "CI0124", "nombre": "Computabilidad y Complejidad", "creditos": 4, "requisitos": ["CI0116"], "correquisitos": []},
+        {"codigo": "CI0130", "nombre": "Métodos de Modelado y Optimización", "creditos": 2, "requisitos": ["CI0115"], "correquisitos": []}
       ]
     },
     {
       "numero": 6,
       "cursos": [
-        {
-          "codigo": "CI0125",
-          "nombre": "Desempeño y Experimentación",
-          "creditos": 4,
-          "requisitos": ["CI0121", "CI0122", "CI0123", "CI0130"],
-          "correquisitos": ["CI0126", "CI0127"]
-        },
-        {
-          "codigo": "CI0126",
-          "nombre": "Ingeniería del Software",
-          "creditos": 4,
-          "requisitos": ["CI0116"],
-          "correquisitos": ["CI0128"]
-        },
-        {
-          "codigo": "CI0127",
-          "nombre": "Base de Datos",
-          "creditos": 4,
-          "requisitos": ["CI0116"],
-          "correquisitos": ["CI0128"]
-        },
-        {
-          "codigo": "RP-1",
-          "nombre": "Repertorio",
-          "creditos": 2,
-          "requisitos": [],
-          "correquisitos": []
-        }
+        {"codigo": "CI0125", "nombre": "Desempeño y Experimentación", "creditos": 4, "requisitos": ["CI0121", "CI0122", "CI0123", "CI0130"], "correquisitos": ["CI0126", "CI0127"]},
+        {"codigo": "CI0126", "nombre": "Ingeniería del Software", "creditos": 4, "requisitos": ["CI0116"], "correquisitos": ["CI0128"]},
+        {"codigo": "CI0127", "nombre": "Base de Datos", "creditos": 4, "requisitos": ["CI0116"], "correquisitos": ["CI0128"]},
+        {"codigo": "RP-1", "nombre": "Repertorio", "creditos": 2, "requisitos": [], "correquisitos": []}
       ]
     },
     {
       "numero": 7,
       "cursos": [
-        {
-          "codigo": "EG-",
-          "nombre": "Curso de Arte",
-          "creditos": 2,
-          "requisitos": [],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0128",
-          "nombre": "Proyecto Integrador de Ingeniería de Software",
-          "creditos": 3,
-          "requisitos": ["CI0116"],
-          "correquisitos": ["CI0126", "CI0127"]
-        },
-        {
-          "codigo": "CI0138",
-          "nombre": "Integración de Infraestructura de TI",
-          "creditos": 4,
-          "requisitos": ["CI0114", "CI0123", "CI0125"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0141",
-          "nombre": "Bases de Datos Avanzadas",
-          "creditos": 4,
-          "requisitos": ["CI0127", "CI0128"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0143",
-          "nombre": "Seguridad de Sistemas Computacionales",
-          "creditos": 4,
-          "requisitos": ["CI0121", "CI0122", "CI0123", "CI0126", "CI0127", "CI0128"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "OPT1063-1",
-          "nombre": "Optativo de TI I",
-          "creditos": 3,
-          "requisitos": [],
-          "correquisitos": [],
-          "optativa": "OPT1063"
-        }
+        {"codigo": "EG-", "nombre": "Curso de Arte", "creditos": 2, "requisitos": [], "correquisitos": []},
+        {"codigo": "CI0128", "nombre": "Proyecto Integrador de Ingeniería de Software", "creditos": 3, "requisitos": ["CI0116"], "correquisitos": ["CI0126", "CI0127"]},
+        {"codigo": "CI0138", "nombre": "Integración de Infraestructura de TI", "creditos": 4, "requisitos": ["CI0114", "CI0123", "CI0125"], "correquisitos": []},
+        {"codigo": "CI0141", "nombre": "Bases de Datos Avanzadas", "creditos": 4, "requisitos": ["CI0127", "CI0128"], "correquisitos": []},
+        {"codigo": "CI0143", "nombre": "Seguridad de Sistemas Computacionales", "creditos": 4, "requisitos": ["CI0121", "CI0122", "CI0123", "CI0126", "CI0127", "CI0128"], "correquisitos": []},
+        {"codigo": "OPT1063-1", "nombre": "Optativo de TI I", "creditos": 3, "requisitos": [], "correquisitos": [], "optativa": "OPT1063"}
       ]
     },
     {
       "numero": 8,
       "cursos": [
-        {
-          "codigo": "CI0133",
-          "nombre": "Computación y Sociedad",
-          "creditos": 4,
-          "requisitos": ["CI0123", "CI0128"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0144",
-          "nombre": "Diseño y Operación de Servicios de Infraestructura",
-          "creditos": 4,
-          "requisitos": ["CI0124", "CI0138", "CI0143"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "CI0145",
-          "nombre": "Administración y Planificación de TI",
-          "creditos": 4,
-          "requisitos": ["CI0125"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "SR-II",
-          "nombre": "Seminario de Realidad Nacional II",
-          "creditos": 2,
-          "requisitos": ["SR-I"],
-          "correquisitos": []
-        },
-        {
-          "codigo": "OPT1063-2",
-          "nombre": "Optativo de TI II",
-          "creditos": 4,
-          "requisitos": [],
-          "correquisitos": [],
-          "optativa": "OPT1063"
-        },
-        {
-          "codigo": "OPT1063-3",
-          "nombre": "Optativo de TI III",
-          "creditos": 4,
-          "requisitos": [],
-          "correquisitos": [],
-          "optativa": "OPT1063"
-        }
+        {"codigo": "CI0133", "nombre": "Computación y Sociedad", "creditos": 4, "requisitos": ["CI0123", "CI0128"], "correquisitos": []},
+        {"codigo": "CI0144", "nombre": "Diseño y Operación de Servicios de Infraestructura", "creditos": 4, "requisitos": ["CI0124", "CI0138", "CI0143"], "correquisitos": []},
+        {"codigo": "CI0145", "nombre": "Administración y Planificación de TI", "creditos": 4, "requisitos": ["CI0125"], "correquisitos": []},
+        {"codigo": "SR-II", "nombre": "Seminario de Realidad Nacional II", "creditos": 2, "requisitos": ["SR-I"], "correquisitos": []},
+        {"codigo": "OPT1063-2", "nombre": "Optativo de TI II", "creditos": 4, "requisitos": [], "correquisitos": [], "optativa": "OPT1063"},
+        {"codigo": "OPT1063-3", "nombre": "Optativo de TI III", "creditos": 4, "requisitos": [], "correquisitos": [], "optativa": "OPT1063"}
       ]
     }
   ],
   "optativas": {
     "OPT1063": [
-      {
-        "codigo": "CI0155",
-        "nombre": "Sistemas Empotrados en Tiempo Real",
-        "creditos": 4,
-        "requisitos": ["CI0126", "CI0128"]
-      },
-      {
-        "codigo": "CI0157",
-        "nombre": "Redes Programables",
-        "creditos": 4,
-        "requisitos": ["CI0121", "CI0122", "CI0123"]
-      },
-      {
-        "codigo": "CI0158",
-        "nombre": "Infraestructuras de Llave Pública",
-        "creditos": 4,
-        "requisitos": ["CI0126", "CI0127", "CI0128", "CI0143"]
-      },
-      {
-        "codigo": "CI0159",
-        "nombre": "Computacion en la Nube",
-        "creditos": 4,
-        "requisitos": ["CI0121", "CI0122", "CI0123"]
-      },
-      {
-        "codigo": "CI0160",
-        "nombre": "Robótica",
-        "creditos": 4,
-        "requisitos": ["CI0121", "CI0122", "CI0123"]
-      },
-      {
-        "codigo": "CI0161",
-        "nombre": "Desarrollo de Aplicaciones para Dispositivos Móviles",
-        "creditos": 4,
-        "requisitos": ["CI0117", "CI0126", "CI0127", "CI0128"]
-      },
-      {
-        "codigo": "CI0154",
-        "nombre": "Programación de Servicios Web",
-        "creditos": 4,
-        "requisitos": ["CI0117", "CI0126", "CI0127", "CI0128"]
-      },
-      {
-        "codigo": "CI0163",
-        "nombre": "Análisis de Grandes Volúmenes de Datos",
-        "creditos": 4,
-        "requisitos": ["CI0127", "CI0128"]
-      }
+      {"codigo": "CI0155", "nombre": "Sistemas Empotrados en Tiempo Real", "creditos": 4, "requisitos": ["CI0126", "CI0128"]},
+      {"codigo": "CI0157", "nombre": "Redes Programables", "creditos": 4, "requisitos": ["CI0121", "CI0122", "CI0123"]},
+      {"codigo": "CI0158", "nombre": "Infraestructuras de Llave Pública", "creditos": 4, "requisitos": ["CI0126", "CI0127", "CI0128", "CI0143"]},
+      {"codigo": "CI0159", "nombre": "Computacion en la Nube", "creditos": 4, "requisitos": ["CI0121", "CI0122", "CI0123"]},
+      {"codigo": "CI0160", "nombre": "Robótica", "creditos": 4, "requisitos": ["CI0121", "CI0122", "CI0123"]},
+      {"codigo": "CI0161", "nombre": "Desarrollo de Aplicaciones para Dispositivos Móviles", "creditos": 4, "requisitos": ["CI0117", "CI0126", "CI0127", "CI0128"]},
+      {"codigo": "CI0154", "nombre": "Programación de Servicios Web", "creditos": 4, "requisitos": ["CI0117", "CI0126", "CI0127", "CI0128"]},
+      {"codigo": "CI0163", "nombre": "Análisis de Grandes Volúmenes de Datos", "creditos": 4, "requisitos": ["CI0127", "CI0128"]}
     ]
   },
   "hitos": []
